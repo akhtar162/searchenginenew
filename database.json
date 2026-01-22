@@ -1,0 +1,2290 @@
+[
+    {
+        "id": 1,
+        "title": "Bank Central Asia (BCA)",
+        "url": "https://www.bca.co.id",
+        "desc": "Bank swasta terbesar di Indonesia. Solusi perbankan digital, kartu kredit, dan investasi.",
+        "content": "BCA senantiasa di sisi Anda, memberikan layanan finansial terbaik dan inovasi perbankan digital.",
+        "tags": ["business", "finance", "bank", "bca"]
+    },
+    {
+        "id": 2,
+        "title": "Bank Mandiri",
+        "url": "https://www.bankmandiri.co.id",
+        "desc": "Bank BUMN terbesar. Melayani kebutuhan perbankan korporasi, komersial, dan konsumer.",
+        "content": "Bank Mandiri menawarkan berbagai produk simpanan, pinjaman, dan layanan digital Livin' by Mandiri.",
+        "tags": ["business", "finance", "bank", "bumn"]
+    },
+    {
+        "id": 3,
+        "title": "Bank Negara Indonesia (BNI)",
+        "url": "https://www.bni.co.id",
+        "desc": "Melayani Negeri, Kebanggaan Bangsa. Layanan perbankan terintegrasi untuk individu dan bisnis.",
+        "content": "BNI menyediakan layanan perbankan digital BNI Mobile Banking dan solusi bisnis global.",
+        "tags": ["business", "finance", "bank", "bumn"]
+    },
+    {
+        "id": 4,
+        "title": "Bank Rakyat Indonesia (BRI)",
+        "url": "https://bri.co.id",
+        "desc": "Melayani dengan setulus hati. Fokus pada UMKM dan layanan perbankan mikro hingga korporasi.",
+        "content": "BRI adalah bank dengan jaringan terluas di Indonesia, mendukung ekonomi kerakyatan melalui digitalisasi.",
+        "tags": ["business", "finance", "bank", "bumn"]
+    },
+    {
+        "id": 5,
+        "title": "Telkomsel",
+        "url": "https://www.telkomsel.com",
+        "desc": "Operator seluler terbesar di Indonesia dengan jaringan terluas dan tercepat.",
+        "content": "Telkomsel menyediakan layanan data, suara, dan solusi digital untuk pelanggan personal dan bisnis.",
+        "tags": ["business", "telco", "internet", "seluler"]
+    },
+    {
+        "id": 6,
+        "title": "Indosat Ooredoo Hutchison",
+        "url": "https://ioh.co.id",
+        "desc": "Perusahaan telekomunikasi digital terkemuka. Memberdayakan Indonesia melalui konektivitas.",
+        "content": "Indosat Ooredoo Hutchison menghadirkan pengalaman digital kelas dunia, menghubungkan dan memberdayakan masyarakat.",
+        "tags": ["business", "telco", "internet", "digital"]
+    },
+    {
+        "id": 7,
+        "title": "XL Axiata",
+        "url": "https://www.xl.co.id",
+        "desc": "Layanan internet dan telekomunikasi seluler yang andal untuk kebutuhan digital Anda.",
+        "content": "XL Axiata menawarkan paket data internet cepat dan layanan konvergensi XL SATU.",
+        "tags": ["business", "telco", "internet", "data"]
+    },
+    {
+        "id": 8,
+        "title": "Garuda Indonesia",
+        "url": "https://www.garuda-indonesia.com",
+        "desc": "Maskapai penerbangan nasional Indonesia. The Airline of Indonesia.",
+        "content": "Garuda Indonesia memberikan layanan penerbangan full-service terbaik dengan keramahtamahan khas Indonesia.",
+        "tags": ["business", "travel", "airline", "penerbangan"]
+    },
+    {
+        "id": 9,
+        "title": "Lion Air",
+        "url": "https://www.lionair.co.id",
+        "desc": "Maskapai penerbangan swasta terbesar di Indonesia. We Make People Fly.",
+        "content": "Lion Air menawarkan penerbangan berbiaya hemat ke berbagai destinasi domestik dan internasional.",
+        "tags": ["business", "travel", "airline", "budget"]
+    },
+    {
+        "id": 10,
+        "title": "AirAsia Indonesia",
+        "url": "https://www.airasia.com",
+        "desc": "Maskapai berbiaya hemat terbaik dunia. Terbang hemat ke berbagai destinasi Asia.",
+        "content": "AirAsia menyediakan tiket pesawat murah, hotel, dan paket liburan melalui superapp airasia.",
+        "tags": ["business", "travel", "airline", "promo"]
+    },
+    {
+        "id": 11,
+        "title": "Toyota Astra Motor",
+        "url": "https://www.toyota.astra.co.id",
+        "desc": "Distributor resmi mobil Toyota di Indonesia. Avanza, Innova, Fortuner, dan lainnya.",
+        "content": "Toyota Indonesia menghadirkan kendaraan berkualitas, layanan purna jual prima, dan teknologi hybrid.",
+        "tags": ["business", "automotive", "mobil", "toyota"]
+    },
+    {
+        "id": 12,
+        "title": "Honda Indonesia",
+        "url": "https://www.honda-indonesia.com",
+        "desc": "Website resmi mobil Honda Indonesia. Brio, HR-V, CR-V, Civic, dan City.",
+        "content": "Honda Prospect Motor menghadirkan inovasi berkendara yang sporty, canggih, dan efisien.",
+        "tags": ["business", "automotive", "mobil", "honda"]
+    },
+    {
+        "id": 13,
+        "title": "Yamaha Motor Indonesia",
+        "url": "https://www.yamaha-motor.co.id",
+        "desc": "Semakin Di Depan. Produsen sepeda motor Yamaha. NMAX, Aerox, Fazzio.",
+        "content": "Yamaha Indonesia memproduksi sepeda motor berkualitas tinggi dengan teknologi Blue Core.",
+        "tags": ["business", "automotive", "motor", "yamaha"]
+    },
+    {
+        "id": 14,
+        "title": "Suzuki Indonesia",
+        "url": "https://www.suzuki.co.id",
+        "desc": "Website resmi Suzuki Indonesia. Mobil, Motor, dan Outboard Motor.",
+        "content": "Suzuki menawarkan kendaraan yang tangguh, irit bahan bakar, dan value for money seperti Ertiga dan Jimny.",
+        "tags": ["business", "automotive", "mobil", "motor"]
+    },
+    {
+        "id": 15,
+        "title": "Mitsubishi Motors Indonesia",
+        "url": "https://www.mitsubishi-motors.co.id",
+        "desc": "Drive Your Ambition. Pajero Sport, Xpander, dan Xforce.",
+        "content": "Mitsubishi Motors menghadirkan kendaraan SUV dan MPV yang tangguh dengan desain dinamis.",
+        "tags": ["business", "automotive", "mobil", "mitsubishi"]
+    },
+    {
+        "id": 16,
+        "title": "Hyundai Motors Indonesia",
+        "url": "https://www.hyundai.com/id",
+        "desc": "Inovasi mobilitas masa depan. Mobil listrik IONIQ 5, Creta, dan Stargazer.",
+        "content": "Hyundai memimpin era elektrifikasi kendaraan di Indonesia dengan teknologi canggih dan desain futuristik.",
+        "tags": ["business", "automotive", "mobil", "ev"]
+    },
+    {
+        "id": 17,
+        "title": "Wuling Motors Indonesia",
+        "url": "https://wuling.id",
+        "desc": "Drive For A Better Life. Air ev, Almaz, Cortez, dan Confero.",
+        "content": "Wuling menghadirkan kendaraan inovatif dengan fitur perintah suara bahasa Indonesia (WIND) dan mobil listrik terjangkau.",
+        "tags": ["business", "automotive", "mobil", "ev"]
+    },
+    {
+        "id": 18,
+        "title": "BMW Indonesia",
+        "url": "https://www.bmw.co.id",
+        "desc": "Sheer Driving Pleasure. Mobil mewah BMW Seri 3, Seri 5, X1, X5, dan iX.",
+        "content": "BMW Indonesia menawarkan pengalaman berkendara premium dengan teknologi Jerman terbaik.",
+        "tags": ["business", "automotive", "mobil", "luxury"]
+    },
+    {
+        "id": 19,
+        "title": "Mercedes-Benz Indonesia",
+        "url": "https://www.mercedes-benz.co.id",
+        "desc": "The Best or Nothing. Kendaraan penumpang mewah Mercedes-Benz.",
+        "content": "Mercedes-Benz menghadirkan kemewahan, kenyamanan, dan keamanan tingkat tinggi dalam setiap kendaraannya.",
+        "tags": ["business", "automotive", "mobil", "luxury"]
+    },
+    {
+        "id": 20,
+        "title": "Samsung Indonesia",
+        "url": "https://www.samsung.com/id",
+        "desc": "Smartphone, TV, Kulkas, Mesin Cuci, dan Elektronik Rumah Tangga.",
+        "content": "Samsung memimpin pasar elektronik dengan inovasi Galaxy S series, Z Fold, dan ekosistem SmartThings.",
+        "tags": ["business", "tech", "electronics", "gadget"]
+    },
+    {
+        "id": 21,
+        "title": "Sony Indonesia",
+        "url": "https://www.sony.co.id",
+        "desc": "Elektronik konsumen terbaru. TV BRAVIA, Kamera Alpha, Audio, dan PlayStation.",
+        "content": "Sony menghadirkan teknologi hiburan audio visual terbaik untuk pengalaman yang imersif.",
+        "tags": ["business", "tech", "electronics", "camera"]
+    },
+    {
+        "id": 22,
+        "title": "LG Indonesia",
+        "url": "https://www.lg.com/id",
+        "desc": "Life's Good. TV OLED, Kulkas InstaView, Mesin Cuci AI DD, dan AC.",
+        "content": "LG Electronics menciptakan produk elektronik rumah tangga yang inovatif untuk kehidupan yang lebih baik.",
+        "tags": ["business", "tech", "electronics", "home"]
+    },
+    {
+        "id": 23,
+        "title": "Panasonic Indonesia",
+        "url": "https://www.panasonic.com/id",
+        "desc": "A Better Life, A Better World. Elektronik rumah tangga, kamera Lumix, dan solusi bisnis.",
+        "content": "Panasonic berkomitmen meningkatkan kualitas hidup melalui produk elektronik yang handal dan hemat energi.",
+        "tags": ["business", "tech", "electronics", "home"]
+    },
+    {
+        "id": 24,
+        "title": "Sharp Indonesia",
+        "url": "https://id.sharp",
+        "desc": "Be Original. Kulkas, Mesin Cuci, TV AQUOS, dan Air Purifier Plasmacluster.",
+        "content": "Sharp menghadirkan teknologi Plasmacluster untuk udara sehat dan produk elektronik berkualitas Jepang.",
+        "tags": ["business", "tech", "electronics", "home"]
+    },
+    {
+        "id": 25,
+        "title": "Polytron",
+        "url": "https://polytron.co.id",
+        "desc": "Memang Canggih. Produk elektronik asli Indonesia. Audio, Video, Home Appliances, dan Motor Listrik.",
+        "content": "Polytron adalah kebanggaan Indonesia, memproduksi elektronik berkualitas tinggi dan motor listrik Fox-R.",
+        "tags": ["business", "tech", "electronics", "indonesia"]
+    },
+    {
+        "id": 26,
+        "title": "McDonald's Indonesia",
+        "url": "https://mcdonalds.co.id",
+        "desc": "Restoran cepat saji favorit keluarga. Big Mac, Ayam McD, dan McFlurry.",
+        "content": "McDonald's Indonesia menyajikan makanan berkualitas dengan pelayanan ramah dan fasilitas nyaman.",
+        "tags": ["business", "food", "restaurant", "fastfood"]
+    },
+    {
+        "id": 27,
+        "title": "KFC Indonesia",
+        "url": "https://kfcku.com",
+        "desc": "Jagonya Ayam. Ayam goreng renyah dengan 11 bumbu rahasia Colonel Sanders.",
+        "content": "PT Fast Food Indonesia Tbk adalah pemegang waralaba tunggal KFC di Indonesia.",
+        "tags": ["business", "food", "restaurant", "fastfood"]
+    },
+    {
+        "id": 28,
+        "title": "Pizza Hut Indonesia",
+        "url": "https://www.pizzahut.co.id",
+        "desc": "Restoran pizza nomor 1 di Indonesia. Berbagi Bersama di Pizza Hut.",
+        "content": "Pizza Hut menyajikan berbagai varian pizza, pasta, dan nasi dengan cita rasa yang disukai masyarakat Indonesia.",
+        "tags": ["business", "food", "restaurant", "pizza"]
+    },
+    {
+        "id": 29,
+        "title": "Starbucks Indonesia",
+        "url": "https://www.starbucks.co.id",
+        "desc": "Kedai kopi global. Nikmati kopi berkualitas, minuman handcrafted, dan makanan lezat.",
+        "content": "Starbucks Indonesia menawarkan pengalaman kopi premium dan tempat ketiga yang nyaman bagi pelanggan.",
+        "tags": ["business", "food", "coffee", "lifestyle"]
+    },
+    {
+        "id": 30,
+        "title": "Burger King Indonesia",
+        "url": "https://bkdelivery.co.id",
+        "desc": "Home of the Whopper. Burger panggang api dengan rasa daging asli.",
+        "content": "Burger King menyajikan burger daging sapi panggang berkualitas tinggi dengan sayuran segar.",
+        "tags": ["business", "food", "restaurant", "burger"]
+    },
+    {
+        "id": 31,
+        "title": "Domino's Pizza Indonesia",
+        "url": "https://www.dominos.co.id",
+        "desc": "Ahlinya delivery pizza. Jaminan garansi pengiriman 30 menit sampai.",
+        "content": "Domino's Pizza fokus pada layanan pesan antar pizza yang cepat dan lezat dengan harga terjangkau.",
+        "tags": ["business", "food", "pizza", "delivery"]
+    },
+    {
+        "id": 32,
+        "title": "J.CO Donuts & Coffee",
+        "url": "https://www.jcodonuts.com",
+        "desc": "Donat dan kopi premium asli Indonesia. Alcapone, J.Pops, dan J.Coffee.",
+        "content": "J.CO adalah merek gaya hidup internasional yang menyajikan donat lembut dan kopi Arabika terbaik.",
+        "tags": ["business", "food", "donuts", "coffee"]
+    },
+    {
+        "id": 33,
+        "title": "HokBen",
+        "url": "https://www.hokben.co.id",
+        "desc": "Makanan bergaya Jepang favorit Indonesia. Bento, Beef Teriyaki, dan Ekkado.",
+        "content": "HokBen menyajikan makanan Jepang yang halal, higienis, dan lezat untuk seluruh keluarga.",
+        "tags": ["business", "food", "restaurant", "jepang"]
+    },
+    {
+        "id": 34,
+        "title": "Indofood",
+        "url": "https://www.indofood.com",
+        "desc": "Perusahaan Total Food Solutions. Produsen Indomie, Bogasari, Indomilk, dan Bimoli.",
+        "content": "Indofood adalah salah satu perusahaan makanan kemasan terbesar di Indonesia yang produknya mendunia.",
+        "tags": ["business", "food", "fmcg", "indomie"]
+    },
+    {
+        "id": 35,
+        "title": "Unilever Indonesia",
+        "url": "https://www.unilever.co.id",
+        "desc": "Perusahaan barang konsumen multinasional. Pepsodent, Lifebuoy, Sunsilk, Bango, dan Wall's.",
+        "content": "Unilever Indonesia telah beroperasi selama puluhan tahun, menyediakan produk kebutuhan sehari-hari.",
+        "tags": ["business", "fmcg", "consumer", "global"]
+    },
+    {
+        "id": 36,
+        "title": "Mayora Indah",
+        "url": "https://www.mayora.com",
+        "desc": "Satu lagi dari Mayora. Kopiko, Beng Beng, Torabika, Energen, dan Roma.",
+        "content": "Mayora adalah produsen makanan dan minuman terkemuka yang produknya diekspor ke lebih dari 100 negara.",
+        "tags": ["business", "food", "fmcg", "snack"]
+    },
+    {
+        "id": 37,
+        "title": "Wings Group",
+        "url": "https://wingscorp.com",
+        "desc": "The Best Things in Life. So Klin, Daia, Nuvo, Mie Sedaap, dan Ale-Ale.",
+        "content": "Wings Group memproduksi produk perawatan rumah tangga, perawatan pribadi, dan makanan minuman.",
+        "tags": ["business", "fmcg", "consumer", "wings"]
+    },
+    {
+        "id": 38,
+        "title": "Gudang Garam",
+        "url": "https://www.gudanggaramtbk.com",
+        "desc": "Salah satu produsen rokok kretek terkemuka di Indonesia. Pria Punya Selera.",
+        "content": "Gudang Garam didirikan pada tahun 1958 dan menjadi salah satu pilar industri rokok nasional.",
+        "tags": ["business", "industry", "tobacco", "indonesia"]
+    },
+    {
+        "id": 39,
+        "title": "Djarum",
+        "url": "https://www.djarum.com",
+        "desc": "Produsen rokok kretek ternama. Djarum Super, L.A. Lights, dan Djarum Black.",
+        "content": "Djarum juga aktif dalam kegiatan sosial melalui Djarum Foundation dan pembinaan olahraga bulutangkis.",
+        "tags": ["business", "industry", "tobacco", "indonesia"]
+    },
+    {
+        "id": 40,
+        "title": "Astra International",
+        "url": "https://www.astra.co.id",
+        "desc": "Perusahaan konglomerat multinasional. Otomotif, jasa keuangan, alat berat, dan agribisnis.",
+        "content": "Astra adalah grup perusahaan terbesar di Indonesia yang memiliki kemitraan strategis dengan Toyota, Honda, dan Daihatsu.",
+        "tags": ["business", "conglomerate", "automotive", "astra"]
+    },
+    {
+        "id": 41,
+        "title": "Pertamina (Persero)",
+        "url": "https://www.pertamina.com",
+        "desc": "BUMN energi terbesar di Indonesia. Minyak, gas, dan energi baru terbarukan.",
+        "content": "Pertamina bertugas menyediakan kebutuhan energi nasional dan mengelola blok migas dari hulu ke hilir.",
+        "tags": ["business", "energy", "oil", "bumn"]
+    },
+    {
+        "id": 42,
+        "title": "PLN (Persero)",
+        "url": "https://web.pln.co.id",
+        "desc": "Perusahaan Listrik Negara. Melayani kebutuhan listrik untuk seluruh rakyat Indonesia.",
+        "content": "PLN terus bertransformasi untuk menghadirkan listrik yang andal, hijau, dan inovatif.",
+        "tags": ["business", "energy", "listrik", "bumn"]
+    },
+    {
+        "id": 43,
+        "title": "KAI (Kereta Api Indonesia)",
+        "url": "https://www.kai.id",
+        "desc": "Operator kereta api nasional. Layanan angkutan penumpang dan barang yang aman dan nyaman.",
+        "content": "KAI mengoperasikan kereta jarak jauh, KRL Commuter Line, LRT, dan Kereta Cepat Whoosh.",
+        "tags": ["business", "transport", "kereta", "bumn"]
+    },
+    {
+        "id": 44,
+        "title": "Blue Bird Group",
+        "url": "https://www.bluebirdgroup.com",
+        "desc": "Layanan taksi dan transportasi terpercaya di Indonesia. Aman, Nyaman, Mudah, dan Personalise.",
+        "content": "Blue Bird adalah ikon transportasi Indonesia yang menyediakan layanan taksi reguler, eksekutif, dan bus pariwisata.",
+        "tags": ["business", "transport", "taxi", "bluebird"]
+    },
+    {
+        "id": 45,
+        "title": "Cinema XXI",
+        "url": "https://21cineplex.com",
+        "desc": "Jaringan bioskop terbesar di Indonesia. Nonton film terbaru dengan kualitas audio visual terbaik.",
+        "content": "Cinema XXI menghadirkan pengalaman menonton film kelas dunia dengan studio Deluxe, IMAX, dan The Premiere.",
+        "tags": ["business", "entertainment", "bioskop", "film"]
+    },
+    {
+        "id": 46,
+        "title": "CGV Cinemas Indonesia",
+        "url": "https://www.cgv.id",
+        "desc": "Evolving Beyond Movies. Bioskop dengan konsep Cultureplex. 4DX, ScreenX, dan Gold Class.",
+        "content": "CGV menawarkan pengalaman menonton yang unik dengan berbagai format layar dan kenyamanan tempat duduk.",
+        "tags": ["business", "entertainment", "bioskop", "film"]
+    },
+    {
+        "id": 47,
+        "title": "Gramedia",
+        "url": "https://www.gramedia.com",
+        "desc": "Toko buku terbesar di Indonesia. Buku, alat tulis, perlengkapan kantor, dan gaya hidup.",
+        "content": "Gramedia adalah anak perusahaan Kompas Gramedia yang menyediakan sumber ilmu pengetahuan dan inspirasi.",
+        "tags": ["business", "retail", "book", "store"]
+    },
+    {
+        "id": 48,
+        "title": "Erafone",
+        "url": "https://eraspace.com/erafone",
+        "desc": "Retailer ponsel dan tablet bergaransi resmi terlengkap di Indonesia.",
+        "content": "Erafone adalah bagian dari Erajaya Group, menjual berbagai merek smartphone seperti Samsung, Xiaomi, OPPO, dan Vivo.",
+        "tags": ["business", "retail", "gadget", "phone"]
+    },
+    {
+        "id": 49,
+        "title": "iBox",
+        "url": "https://ibox.co.id",
+        "desc": "Apple Premium Reseller terkemuka di Indonesia. iPhone, iPad, Mac, dan Aksesori.",
+        "content": "iBox menyediakan produk Apple bergaransi resmi dan pengalaman belanja yang premium.",
+        "tags": ["business", "retail", "apple", "gadget"]
+    },
+    {
+        "id": 50,
+        "title": "Electronic City",
+        "url": "https://eci.id",
+        "desc": "Pusat belanja elektronik modern pertama di Indonesia. Juaranya Toko Elektronik.",
+        "content": "Electronic City menawarkan produk elektronik audio video dan rumah tangga dengan pelayanan prima.",
+        "tags": ["business", "retail", "electronics", "store"]
+    },
+    {
+        "id": 51,
+        "title": "Ace Hardware Indonesia",
+        "url": "https://www.acehardware.co.id",
+        "desc": "Pusat perlengkapan rumah tangga dan gaya hidup terlengkap. The Helpful Place.",
+        "content": "Ace Hardware menyediakan solusi untuk perbaikan rumah, hobi, dan kebutuhan sehari-hari.",
+        "tags": ["business", "retail", "home", "hardware"]
+    },
+    {
+        "id": 52,
+        "title": "Informa",
+        "url": "https://informa.co.id",
+        "desc": "Pusat furnitur dan aksesoris terlengkap. Furnishings with Style.",
+        "content": "Informa menawarkan berbagai pilihan furnitur untuk hunian dan bisnis dengan desain modern.",
+        "tags": ["business", "retail", "furniture", "home"]
+    },
+    {
+        "id": 53,
+        "title": "Mitra10",
+        "url": "https://www.mitra10.com",
+        "desc": "Supermarket bahan bangunan dan perlengkapan rumah. Murah, Lengkap, dan Nyaman.",
+        "content": "Mitra10 adalah ritel modern bahan bangunan terdepan di Indonesia.",
+        "tags": ["business", "retail", "building", "home"]
+    },
+    {
+        "id": 54,
+        "title": "Alfamart",
+        "url": "https://alfamart.co.id",
+        "desc": "Jaringan minimarket terkemuka. Belanja puas, harga pas.",
+        "content": "Alfamart memiliki ribuan gerai yang tersebar di seluruh Indonesia, menyediakan kebutuhan pokok sehari-hari.",
+        "tags": ["business", "retail", "minimarket", "groceries"]
+    },
+    {
+        "id": 55,
+        "title": "Indomaret",
+        "url": "https://indomaret.co.id",
+        "desc": "Minimarket waralaba terbesar di Indonesia. Mudah dan Hemat.",
+        "content": "Indomaret menyediakan berbagai kebutuhan harian di lokasi yang mudah dijangkau masyarakat.",
+        "tags": ["business", "retail", "minimarket", "groceries"]
+    },
+    {
+        "id": 56,
+        "title": "Hero Supermarket",
+        "url": "https://hero.co.id",
+        "desc": "Pioneer ritel modern di Indonesia. Menyediakan produk segar dan berkualitas premium.",
+        "content": "Hero Supermarket fokus pada penyediaan produk makanan segar dan impor berkualitas tinggi.",
+        "tags": ["business", "retail", "supermarket", "groceries"]
+    },
+    {
+        "id": 57,
+        "title": "Hypermart",
+        "url": "https://www.hypermart.co.id",
+        "desc": "Jaringan hypermarket terbesar. Low Prices and More.",
+        "content": "Hypermart menyediakan berbagai macam produk mulai dari groseri hingga elektronik dengan harga kompetitif.",
+        "tags": ["business", "retail", "hypermarket", "groceries"]
+    },
+    {
+        "id": 58,
+        "title": "Superindo",
+        "url": "https://www.superindo.co.id",
+        "desc": "Supermarket lingkungan yang menyediakan produk segar berkualitas dengan harga terjangkau.",
+        "content": "Superindo adalah bagian dari jaringan ritel internasional Ahold Delhaize.",
+        "tags": ["business", "retail", "supermarket", "groceries"]
+    },
+    {
+        "id": 59,
+        "title": "Ranch Market",
+        "url": "https://www.ranchmarket.co.id",
+        "desc": "Supermarket premium yang mengutamakan kualitas, kesehatan, dan kenyamanan.",
+        "content": "Ranch Market menyediakan produk organik, superfood, dan barang impor berkualitas tinggi.",
+        "tags": ["business", "retail", "supermarket", "premium"]
+    },
+    {
+        "id": 60,
+        "title": "Transmart",
+        "url": "https://carrefour.co.id",
+        "desc": "Destinasi belanja, bersantap, dan bermain. Konsep 4-in-1 ritel modern.",
+        "content": "Transmart menggabungkan hypermarket, department store, restoran, dan taman bermain Trans Studio Mini.",
+        "tags": ["business", "retail", "hypermarket", "lifestyle"]
+    },
+    {
+        "id": 61,
+        "title": "Sinar Mas Land",
+        "url": "https://sinarmasland.com",
+        "desc": "Pengembang properti terkemuka. Membangun kota mandiri BSD City dan proyek lainnya.",
+        "content": "Sinar Mas Land adalah salah satu pengembang properti terbesar dan paling beragam di Indonesia.",
+        "tags": ["business", "property", "realestate", "developer"]
+    },
+    {
+        "id": 62,
+        "title": "Ciputra Group",
+        "url": "https://ciputra.com",
+        "desc": "Membangun kota, membangun kehidupan. Pengembang CitraLand, Ciputra World, dan lainnya.",
+        "content": "Ciputra Group dikenal dengan proyek perumahan skala kota dan komitmen terhadap entrepreneurship.",
+        "tags": ["business", "property", "realestate", "developer"]
+    },
+    {
+        "id": 63,
+        "title": "Agung Podomoro Land",
+        "url": "https://www.agungpodomoro.com",
+        "desc": "Pengembang superblok dan apartemen terkemuka. Podomoro City, Senayan City.",
+        "content": "Agung Podomoro Land fokus pada pengembangan kawasan terpadu dan hunian vertikal di lokasi strategis.",
+        "tags": ["business", "property", "realestate", "developer"]
+    },
+    {
+        "id": 64,
+        "title": "Pakuwon Jati",
+        "url": "https://www.pakuwon.com",
+        "desc": "Pengembang real estat diversifikasi. Gandaria City, Kota Kasablanka, Tunjungan Plaza.",
+        "content": "Pakuwon Jati memiliki portofolio pusat perbelanjaan, perkantoran, dan hotel yang kuat di Jakarta dan Surabaya.",
+        "tags": ["business", "property", "realestate", "developer"]
+    },
+    {
+        "id": 65,
+        "title": "Summarecon Agung",
+        "url": "https://www.summarecon.com",
+        "desc": "Wonderful Life. Pengembang kota terpadu Summarecon Kelapa Gading, Serpong, dan Bekasi.",
+        "content": "Summarecon dikenal dengan pengembangan kota mandiri yang nyaman dan fasilitas lengkap.",
+        "tags": ["business", "property", "realestate", "developer"]
+    },
+    {
+        "id": 66,
+        "title": "Lippo Group",
+        "url": "https://www.lippokarawaci.co.id",
+        "desc": "Konglomerasi bisnis properti, ritel, kesehatan, dan pendidikan. Lippo Village, Lippo Cikarang.",
+        "content": "Lippo Group adalah salah satu grup bisnis terbesar di Indonesia dengan investasi di berbagai sektor.",
+        "tags": ["business", "conglomerate", "property", "lippo"]
+    },
+    {
+        "id": 67,
+        "title": "Kalbe Farma",
+        "url": "https://www.kalbe.co.id",
+        "desc": "Perusahaan farmasi terbesar di Asia Tenggara. Promag, Mixagrip, Komix, dan Prenagen.",
+        "content": "Kalbe Farma menyediakan solusi kesehatan komprehensif mulai dari obat resep hingga nutrisi.",
+        "tags": ["business", "health", "pharma", "kalbe"]
+    },
+    {
+        "id": 68,
+        "title": "Bio Farma",
+        "url": "https://www.biofarma.co.id",
+        "desc": "Produsen vaksin kelas dunia. BUMN farmasi yang berdedikasi untuk kesehatan global.",
+        "content": "Bio Farma adalah satu-satunya produsen vaksin manusia di Indonesia dan penyuplai utama untuk WHO.",
+        "tags": ["business", "health", "pharma", "vaccine"]
+    },
+    {
+        "id": 69,
+        "title": "Kimia Farma",
+        "url": "https://kimiafarma.co.id",
+        "desc": "Perusahaan industri farmasi pertama di Indonesia. Jaringan apotek dan klinik terluas.",
+        "content": "Kimia Farma menyediakan layanan kesehatan terintegrasi dari manufaktur hingga ritel farmasi.",
+        "tags": ["business", "health", "pharma", "apotek"]
+    },
+    {
+        "id": 70,
+        "title": "Siloam Hospitals",
+        "url": "https://www.siloamhospitals.com",
+        "desc": "Jaringan rumah sakit swasta terbesar di Indonesia dengan standar pelayanan internasional.",
+        "content": "Siloam Hospitals Group berkomitmen menyediakan layanan kesehatan berkualitas tinggi dengan teknologi medis terkini.",
+        "tags": ["business", "health", "hospital", "medis"]
+    },
+    {
+        "id": 71,
+        "title": "YouTube: Tonton, Streaming, dan Bagikan Video",
+        "url": "https://www.youtube.com",
+        "desc": "Nikmati video dan musik yang Anda suka, unggah konten asli, dan bagikan semuanya dengan teman, keluarga, dan dunia di YouTube.",
+        "content": "YouTube adalah platform berbagi video online terbesar di dunia, dimiliki oleh Google. Pengguna dapat menonton, menyukai, berbagi, mengomentari, dan mengunggah video mereka sendiri.",
+        "tags": ["video", "entertainment", "social", "google", "streaming"]
+    },
+    {
+        "id": 72,
+        "title": "Facebook - Masuk atau Daftar",
+        "url": "https://www.facebook.com",
+        "desc": "Terhubung dengan teman, keluarga, dan orang lain yang Anda kenal. Bagikan foto dan video, kirim pesan, dan dapatkan pembaruan.",
+        "content": "Facebook adalah layanan jejaring sosial online yang memungkinkan penggunanya untuk terhubung dengan orang lain dan berbagi informasi pribadi, foto, dan video.",
+        "tags": ["social", "meta", "lifestyle", "news", "komunitas"]
+    },
+    {
+        "id": 73,
+        "title": "Instagram",
+        "url": "https://www.instagram.com",
+        "desc": "Buat akun atau masuk ke Instagram - Cara yang simpel, seru & kreatif untuk mengabadikan, mengedit & membagikan foto, video & pesan dengan teman & keluarga.",
+        "content": "Instagram adalah layanan jejaring sosial berbagi foto dan video yang dimiliki oleh Meta Platforms. Aplikasi ini memungkinkan pengguna untuk mengunggah media yang dapat diedit dengan filter.",
+        "tags": ["social", "photo", "video", "lifestyle", "meta"]
+    },
+    {
+        "id": 74,
+        "title": "Wikipedia, Ensiklopedia Bebas",
+        "url": "https://id.wikipedia.org",
+        "desc": "Wikipedia adalah proyek ensiklopedia multibahasa dalam jaringan yang bebas dan terbuka, yang dijalankan oleh Wikimedia Foundation.",
+        "content": "Sebuah ensiklopedia online yang dapat diedit oleh siapa saja. Berisi jutaan artikel dalam berbagai bahasa tentang hampir semua topik yang bisa dibayangkan.",
+        "tags": ["edukasi", "referensi", "pengetahuan", "ensiklopedia", "sains"]
+    },
+    {
+        "id": 75,
+        "title": "X (Twitter): Sedang Terjadi",
+        "url": "https://www.twitter.com",
+        "desc": "Dari berita terkini dan hiburan hingga olahraga dan politik, dapatkan cerita lengkap dengan semua komentar langsung.",
+        "content": "Sebelumnya dikenal sebagai Twitter, X adalah platform microblogging dan jejaring sosial tempat pengguna memposting dan berinteraksi dengan pesan yang dikenal sebagai 'post'.",
+        "tags": ["social", "news", "berita", "microblogging", "terkini"]
+    },
+    {
+        "id": 76,
+        "title": "Reddit: Selami Apa Saja",
+        "url": "https://www.reddit.com",
+        "desc": "Reddit adalah jaringan komunitas tempat orang dapat menyelami minat, hobi, dan hasrat mereka. Ada komunitas untuk semua hal.",
+        "content": "Sebuah situs web agregasi berita sosial, rating konten, dan diskusi Amerika. Anggota terdaftar mengirimkan konten ke situs seperti tautan, posting teks, dan gambar.",
+        "tags": ["social", "forum", "diskusi", "komunitas", "news"]
+    },
+    {
+        "id": 77,
+        "title": "Netflix Indonesia - Tonton Acara TV Online, Tonton Film Online",
+        "url": "https://www.netflix.com",
+        "desc": "Tonton film dan acara TV Netflix online atau streaming langsung ke smart TV, konsol game, PC, Mac, ponsel, tablet, dan lainnya.",
+        "content": "Netflix adalah layanan streaming berlangganan yang memungkinkan anggota kami menonton acara TV dan film tanpa iklan di perangkat yang terhubung ke internet.",
+        "tags": ["movie", "entertainment", "streaming", "film", "series"]
+    },
+    {
+        "id": 78,
+        "title": "Amazon.com: Belanja Online",
+        "url": "https://www.amazon.com",
+        "desc": "Belanja online untuk elektronik, pakaian, mainan, buku, DVD, dan lainnya. Pengiriman gratis untuk pesanan yang memenuhi syarat.",
+        "content": "Amazon adalah perusahaan teknologi multinasional Amerika yang berfokus pada e-commerce, komputasi awan, streaming digital, dan kecerdasan buatan.",
+        "tags": ["ecommerce", "belanja", "tech", "cloud", "store"]
+    },
+    {
+        "id": 79,
+        "title": "LinkedIn: Masuk atau Mendaftar",
+        "url": "https://www.linkedin.com",
+        "desc": "750+ juta anggota | Kelola identitas profesional Anda. Bangun dan libatkan jaringan profesional Anda. Akses pengetahuan, wawasan, dan peluang.",
+        "content": "LinkedIn adalah layanan online berorientasi bisnis dan pekerjaan yang beroperasi melalui situs web dan aplikasi seluler.",
+        "tags": ["career", "work", "business", "jaringan", "profesional"]
+    },
+    {
+        "id": 80,
+        "title": "GitHub: Tempat Dunia Membangun Perangkat Lunak",
+        "url": "https://github.com",
+        "desc": "GitHub adalah rumah bagi lebih dari 100 juta pengembang yang bekerja sama untuk menghosting dan meninjau kode, mengelola proyek, dan membangun perangkat lunak bersama.",
+        "content": "Platform pengembangan terkemuka di dunia untuk kontrol versi dan kolaborasi. Ini memungkinkan Anda dan orang lain bekerja sama dalam proyek dari mana saja.",
+        "tags": ["coding", "tech", "programming", "developer", "repository"]
+    },
+    {
+        "id": 81,
+        "title": "Stack Overflow - Tempat Pengembang Belajar, Berbagi, & Membangun Karir",
+        "url": "https://stackoverflow.com",
+        "desc": "Stack Overflow adalah situs tanya jawab untuk pemrogram profesional dan antusias. Ini adalah bagian dari jaringan Stack Exchange.",
+        "content": "Komunitas online terbesar dan paling tepercaya bagi pengembang untuk belajar, berbagi pengetahuan pemrograman mereka, dan membangun karir mereka.",
+        "tags": ["coding", "tech", "programming", "q&a", "developer"]
+    },
+    {
+        "id": 82,
+        "title": "ChatGPT oleh OpenAI",
+        "url": "https://chat.openai.com",
+        "desc": "Model bahasa besar yang dilatih oleh OpenAI. Mampu menghasilkan teks mirip manusia dan menjawab berbagai macam pertanyaan.",
+        "content": "ChatGPT adalah chatbot kecerdasan buatan yang dikembangkan oleh OpenAI dan diluncurkan pada November 2022. Dibangun di atas keluarga model bahasa besar OpenAI.",
+        "tags": ["ai", "tech", "chatbot", "productivity", "openai"]
+    },
+    {
+        "id": 83,
+        "title": "Google Gemini: AI Percakapan",
+        "url": "https://gemini.google.com",
+        "desc": "Dapatkan bantuan kreatif dari model AI percakapan terbesar dan paling mumpuni dari Google. Sebelumnya dikenal sebagai Bard.",
+        "content": "Gemini adalah keluarga model bahasa multimodal yang dikembangkan oleh Google. Ini adalah pesaing utama untuk GPT OpenAI.",
+        "tags": ["ai", "tech", "google", "chatbot", "search"]
+    },
+    {
+        "id": 84,
+        "title": "Midjourney",
+        "url": "https://www.midjourney.com",
+        "desc": "Laboratorium penelitian independen yang mengeksplorasi media pemikiran baru dan memperluas kekuatan imajinatif spesies manusia. Menghasilkan gambar dari teks.",
+        "content": "Midjourney adalah program dan layanan kecerdasan buatan generatif yang menghasilkan gambar dari deskripsi bahasa alami, yang disebut 'prompts'.",
+        "tags": ["ai", "art", "design", "image generator", "kreatif"]
+    },
+    {
+        "id": 85,
+        "title": "Tokopedia - Situs Jual Beli Online Terpercaya di Indonesia",
+        "url": "https://www.tokopedia.com",
+        "desc": "Jual beli online aman dan nyaman di Tokopedia. Tersedia aneka produk lengkap dan murah. Belanja online sekarang!",
+        "content": "Tokopedia adalah perusahaan teknologi Indonesia dengan misi mencapai pemerataan ekonomi secara digital. Salah satu marketplace terbesar di Indonesia.",
+        "tags": ["ecommerce", "belanja", "indonesia", "marketplace", "promo"]
+    },
+    {
+        "id": 86,
+        "title": "Shopee Indonesia | Jual Beli di Ponsel dan Online",
+        "url": "https://shopee.co.id",
+        "desc": "Situs jual beli online terlengkap dengan berbagai pilihan toko online terpercaya. Belanja online mudah dan menyenangkan di Shopee. Pengiriman cepat.",
+        "content": "Shopee adalah platform e-commerce terkemuka di Asia Tenggara dan Taiwan. Menawarkan berbagai macam produk, didukung oleh pembayaran dan logistik terintegrasi.",
+        "tags": ["ecommerce", "belanja", "marketplace", "promo", "fashion"]
+    },
+    {
+        "id": 87,
+        "title": "Kompas.com - Berita Indonesia dan Dunia Terkini",
+        "url": "https://www.kompas.com",
+        "desc": "Berita terkini dan terpercaya dari Indonesia dan dunia, meliputi politik, ekonomi, bisnis, humaniora, dan sains.",
+        "content": "Kompas.com adalah portal berita online yang merupakan bagian dari Kompas Gramedia Group. Menyajikan berita yang akurat dan mendalam.",
+        "tags": ["news", "berita", "indonesia", "jurnalisme", "politik"]
+    },
+    {
+        "id": 88,
+        "title": "detikcom - Informasi Berita Terkini dan Terbaru Hari Ini",
+        "url": "https://www.detik.com",
+        "desc": "Indeks berita terkini dan terbaru hari ini dari peristiwa, kecelakaan, kriminal, hukum, berita unik, politik, dan liputan khusus di Indonesia dan Internasional.",
+        "content": "detikcom adalah salah satu portal web berita utama di Indonesia. Menyajikan berita dengan cepat dan menjadi pelopor berita online di tanah air.",
+        "tags": ["news", "berita", "indonesia", "terkini", "hiburan"]
+    },
+    {
+        "id": 89,
+        "title": "Spotify - Web Player: Musik untuk semua orang",
+        "url": "https://open.spotify.com",
+        "desc": "Spotify adalah layanan musik digital yang memberimu akses ke jutaan lagu. Dengarkan musik dan putar podcast.",
+        "content": "Layanan streaming audio dan media Swedia yang didirikan pada 23 April 2006. Ini adalah salah satu penyedia layanan streaming musik terbesar di dunia.",
+        "tags": ["music", "entertainment", "streaming", "audio", "podcast"]
+    },
+    {
+        "id": 90,
+        "title": "Twitch",
+        "url": "https://www.twitch.tv",
+        "desc": "Twitch adalah tempat jutaan orang berkumpul setiap hari untuk mengobrol, berinteraksi, dan membuat hiburan mereka sendiri bersama.",
+        "content": "Platform streaming video langsung Amerika yang berfokus pada streaming video game, termasuk siaran kompetisi esports. Dimiliki oleh Amazon.",
+        "tags": ["game", "streaming", "entertainment", "esports", "komunitas"]
+    },
+    {
+        "id": 91,
+        "title": "Figma: Alat desain kolaboratif",
+        "url": "https://www.figma.com",
+        "desc": "Bangun produk lebih cepat, bersama-sama. Figma membantu tim membuat, menguji, dan mengirimkan desain yang lebih baik dari awal hingga akhir.",
+        "content": "Figma adalah editor grafis vektor dan alat prototyping yang utamanya berbasis web, dengan fitur offline tambahan yang diaktifkan oleh aplikasi desktop.",
+        "tags": ["design", "ui", "ux", "tech", "kolaborasi"]
+    },
+    {
+        "id": 92,
+        "title": "Canva: Alat Desain Grafis Gratis",
+        "url": "https://www.canva.com",
+        "desc": "Buat desain menakjubkan dengan tim Anda. Gunakan fitur seret dan lepas Canva dan tata letak profesional untuk mendesain grafis yang konsisten.",
+        "content": "Canva adalah platform desain grafis Australia yang digunakan untuk membuat grafis media sosial, presentasi, poster, dokumen, dan konten visual lainnya.",
+        "tags": ["design", "art", "diy", "marketing", "grafis"]
+    },
+    {
+        "id": 93,
+        "title": "Google Drive: Penyimpanan Cloud",
+        "url": "https://drive.google.com",
+        "desc": "Simpan, bagikan, dan kolaborasi pada file dan folder dari perangkat seluler, tablet, atau komputer Anda.",
+        "content": "Google Drive adalah layanan penyimpanan dan sinkronisasi file yang dikembangkan oleh Google. Memungkinkan pengguna untuk menyimpan file di cloud, menyinkronkan file di seluruh perangkat, dan berbagi file.",
+        "tags": ["cloud", "storage", "productivity", "google", "dokumen"]
+    },
+    {
+        "id": 94,
+        "title": "Dropbox",
+        "url": "https://www.dropbox.com",
+        "desc": "Fokus pada hal yang penting. Dropbox adalah ruang kerja cerdas pertama di dunia. Kami menyatukan semua konten dan alat tim Anda.",
+        "content": "Dropbox adalah layanan hosting file yang dioperasikan oleh perusahaan Amerika Dropbox, Inc., yang menawarkan penyimpanan cloud, sinkronisasi file, cloud pribadi, dan perangkat lunak klien.",
+        "tags": ["cloud", "storage", "productivity", "backup", "kolaborasi"]
+    },
+    {
+        "id": 95,
+        "title": "Notion – Satu ruang kerja. Setiap tim.",
+        "url": "https://www.notion.so",
+        "desc": "Kami adalah ruang kerja all-in-one untuk catatan, tugas, wiki, dan basis data Anda. Notion adalah aplikasi yang Anda butuhkan untuk menulis, merencanakan, dan berkolaborasi.",
+        "content": "Notion adalah aplikasi pencatatan dan manajemen proyek yang menyediakan komponen seperti database, papan kanban, wiki, kalender, dan pengingat.",
+        "tags": ["productivity", "work", "organizer", "notes", "database"]
+    },
+    {
+        "id": 96,
+        "title": "Traveloka: Pesan Tiket Pesawat, Hotel, dan Aktivitas",
+        "url": "https://www.traveloka.com",
+        "desc": "Platform perjalanan terkemuka di Asia Tenggara, melayani berbagai kebutuhan perjalanan dalam satu platform.",
+        "content": "Traveloka adalah perusahaan teknologi Indonesia yang menyediakan layanan pemesanan tiket pesawat dan hotel secara online dengan fokus perjalanan domestik di Indonesia.",
+        "tags": ["travel", "tiket", "hotel", "liburan", "booking"]
+    },
+    {
+        "id": 97,
+        "title": "Tiket.com - Satu Aplikasi untuk Kebutuhan Liburanmu",
+        "url": "https://www.tiket.com",
+        "desc": "Pesan tiket pesawat, kereta api, sewa mobil, dan hotel dengan harga promo. Nikmati kemudahan pemesanan di tiket.com.",
+        "content": "tiket.com adalah salah satu perusahaan agen perjalanan online terbesar di Indonesia yang menyediakan dan menyelenggarakan layanan pemesanan dan pembelian tiket.",
+        "tags": ["travel", "tiket", "hotel", "indonesia", "kereta"]
+    },
+    {
+        "id": 98,
+        "title": "Airbnb: Sewa Tempat Liburan, Kabin, Rumah Pantai",
+        "url": "https://www.airbnb.com",
+        "desc": "Temukan tempat menginap dan petualangan di seluruh dunia. Pesan semuanya, mulai dari kabin hingga kondominium, dengan Airbnb.",
+        "content": "Airbnb, Inc. adalah pasar online Amerika untuk penyewaan jangka pendek dan panjang dari rumah, apartemen, kondominium, atau kamar.",
+        "tags": ["travel", "akomodasi", "liburan", "penginapan", "booking"]
+    },
+    {
+        "id": 99,
+        "title": "Pinterest",
+        "url": "https://www.pinterest.com",
+        "desc": "Temukan resep, ide rumah, inspirasi gaya, dan ide-ide lain untuk dicoba.",
+        "content": "Pinterest adalah layanan media sosial berbagi gambar Amerika yang dirancang untuk memungkinkan penyimpanan dan penemuan informasi di World Wide Web menggunakan gambar.",
+        "tags": ["art", "hobby", "inspirasi", "diy", "gambar"]
+    },
+    {
+        "id": 100,
+        "title": "Quora - Tempat untuk Berbagi Pengetahuan dan Memahami Dunia Lebih Baik",
+        "url": "https://www.quora.com",
+        "desc": "Quora adalah tempat untuk mendapatkan dan berbagi pengetahuan. Ini adalah platform untuk mengajukan pertanyaan dan terhubung dengan orang-orang yang memberikan wawasan unik.",
+        "content": "Sebuah platform tanya jawab sosial di mana pertanyaan diajukan, dijawab, diikuti, dan diedit oleh pengguna, baik secara faktual maupun dalam bentuk opini.",
+        "tags": ["q&a", "edukasi", "pengetahuan", "diskusi", "komunitas"]
+    },
+    {
+        "id": 101,
+        "title": "Medium – Tempat ide-ide bagus menemukan Anda.",
+        "url": "https://medium.com",
+        "desc": "Medium adalah platform terbuka tempat pembaca menemukan pemikiran dinamis, dan tempat para ahli dan suara yang belum ditemukan dapat membagikan tulisan mereka tentang topik apa pun.",
+        "content": "Platform penerbitan online Amerika yang dikembangkan oleh Evan Williams dan diluncurkan pada Agustus 2012. Dimiliki oleh A Medium Corporation.",
+        "tags": ["artikel", "blog", "pengetahuan", "jurnalisme", "opini"]
+    },
+    {
+        "id": 102,
+        "title": "The New York Times - Berita Terkini",
+        "url": "https://www.nytimes.com",
+        "desc": "Berita langsung, opini, foto, video, dan fitur dari The New York Times yang mencakup berita dunia, politik, bisnis, teknologi, dan budaya.",
+        "content": "The New York Times adalah surat kabar harian Amerika yang berbasis di New York City dengan pembaca di seluruh dunia.",
+        "tags": ["news", "berita", "world", "jurnalisme", "usa"]
+    },
+    {
+        "id": 103,
+        "title": "BBC News",
+        "url": "https://www.bbc.com/news",
+        "desc": "Kunjungi BBC News untuk berita terkini, olahraga, cuaca, iPlayer, TV, radio, dan lainnya dari seluruh dunia.",
+        "content": "BBC News adalah departemen operasional dari British Broadcasting Corporation (BBC) yang bertanggung jawab atas pengumpulan dan penyiaran berita dan urusan terkini.",
+        "tags": ["news", "berita", "world", "uk", "jurnalisme"]
+    },
+    {
+        "id": 104,
+        "title": "Disney+ | Streaming Film, Acara TV, dan Asli",
+        "url": "https://www.disneyplus.com",
+        "desc": "Rumah streaming Disney, Pixar, Marvel, Star Wars, National Geographic, dan Star. Tonton rilis terbaru, Asli, dan klasik abadi.",
+        "content": "Disney+ adalah layanan video on-demand berlangganan Amerika yang dimiliki dan dioperasikan oleh divisi Media and Entertainment Distribution dari The Walt Disney Company.",
+        "tags": ["streaming", "movie", "entertainment", "disney", "marvel"]
+    },
+    {
+        "id": 105,
+        "title": "Bukalapak - Jual Beli Online Mudah dan Aman",
+        "url": "https://www.bukalapak.com",
+        "desc": "Situs jual beli online mudah & terpercaya. Temukan berbagai macam produk dan promo menarik di Bukalapak.",
+        "content": "Bukalapak adalah salah satu perusahaan e-commerce terkemuka di Indonesia. Menyediakan sarana jual-beli dari konsumen ke konsumen secara online.",
+        "tags": ["ecommerce", "belanja", "indonesia", "marketplace", "umkm"]
+    },
+    {
+        "id": 106,
+        "title": "DALL·E 2 by OpenAI",
+        "url": "https://openai.com/dall-e-2",
+        "desc": "DALL·E 2 adalah sistem AI baru yang dapat membuat gambar dan seni yang realistis dari deskripsi dalam bahasa alami.",
+        "content": "Sebuah model kecerdasan buatan generatif yang dikembangkan oleh OpenAI untuk menghasilkan gambar digital dari deskripsi bahasa alami, yang disebut 'prompts'.",
+        "tags": ["ai", "art", "design", "openai", "image generator"]
+    },
+    {
+        "id": 107,
+        "title": "Vercel: Kembangkan. Pratinjau. Kirim.",
+        "url": "https://vercel.com",
+        "desc": "Vercel adalah platform untuk pengembang frontend, menyediakan kecepatan dan keandalan yang mereka butuhkan untuk membangun skala.",
+        "content": "Platform cloud yang memungkinkan pengembang untuk menghosting situs web dan layanan web yang diterapkan secara instan, diskalakan secara otomatis, dan tidak memerlukan pengawasan.",
+        "tags": ["tech", "hosting", "web", "developer", "frontend"]
+    },
+    {
+        "id": 108,
+        "title": "Netlify: Platform untuk Mengotomatiskan Proyek Web Anda",
+        "url": "https://www.netlify.com",
+        "desc": "Bangun, terapkan, dan kelola situs web & aplikasi modern. Platform all-in-one untuk otomatisasi web.",
+        "content": "Netlify adalah perusahaan komputasi awan yang menawarkan layanan hosting dan backend tanpa server untuk aplikasi web dan situs web statis.",
+        "tags": ["tech", "hosting", "web", "developer", "jamstack"]
+    },
+    {
+        "id": 109,
+        "title": "IMDb: Rating, Review, dan Tempat Menonton Film & Acara TV",
+        "url": "https://www.imdb.com",
+        "desc": "IMDb adalah sumber paling populer dan berwibawa di dunia untuk konten film, TV, dan selebriti. Temukan rating dan review untuk film & acara TV terbaru.",
+        "content": "Internet Movie Database (IMDb) adalah basis data online informasi yang berkaitan dengan film, program televisi, video rumahan, video game, dan konten streaming online.",
+        "tags": ["movie", "entertainment", "review", "database", "film"]
+    },
+    {
+        "id": 110,
+        "title": "Zoom: Konferensi Video, Rapat Online, Webinar",
+        "url": "https://zoom.us",
+        "desc": "Zoom adalah pemimpin dalam komunikasi video perusahaan modern, dengan platform cloud yang mudah dan andal untuk konferensi video dan audio, obrolan, dan webinar.",
+        "content": "Platform perangkat lunak komunikasi video yang dikembangkan oleh Zoom Video Communications, Inc. Menyediakan layanan panggilan video dan obrolan online.",
+        "tags": ["work", "meeting", "video", "productivity", "kolaborasi"]
+    },
+    {
+        "id": 111,
+        "title": "Microsoft - Cloud, Computers, Apps & Gaming",
+        "url": "https://www.microsoft.com",
+        "desc": "Jelajahi produk dan layanan Microsoft untuk rumah atau bisnis Anda. Beli Surface, perangkat Microsoft 365, Xbox, Windows, Azure, dan lainnya.",
+        "content": "Microsoft adalah perusahaan teknologi multinasional yang mengembangkan, memproduksi, melisensikan, mendukung, dan menjual perangkat lunak komputer, elektronik konsumen, dan komputer pribadi.",
+        "tags": ["tech", "software", "windows", "office", "cloud", "gaming"]
+    },
+    {
+        "id": 112,
+        "title": "Apple",
+        "url": "https://www.apple.com",
+        "desc": "Temukan dunia Apple. Beli iPhone, iPad, Apple Watch, Mac, dan Apple TV, serta jelajahi aksesori, hiburan, dan dukungan ahli.",
+        "content": "Apple Inc. adalah perusahaan teknologi multinasional Amerika yang berspesialisasi dalam elektronik konsumen, perangkat lunak, dan layanan online.",
+        "tags": ["tech", "gadget", "iphone", "mac", "design", "premium"]
+    },
+    {
+        "id": 113,
+        "title": "TikTok - Make Your Day",
+        "url": "https://www.tiktok.com",
+        "desc": "TikTok adalah tujuan untuk video seluler bentuk pendek. Misi kami adalah untuk menangkap dan menyajikan kreativitas, pengetahuan, dan momen berharga dunia.",
+        "content": "Sebuah layanan jejaring sosial berbagi video yang dimiliki oleh perusahaan Tiongkok, ByteDance. Platform ini digunakan untuk membuat berbagai video pendek.",
+        "tags": ["social", "video", "entertainment", "kreatif", "tren"]
+    },
+    {
+        "id": 114,
+        "title": "Gojek: Ojek, Transportasi, Makanan, & Pembayaran",
+        "url": "https://www.gojek.com",
+        "desc": "Lebih dari sekadar aplikasi untuk transportasi, pengiriman makanan, logistik, pembayaran, dan layanan harian. Gojek adalah aplikasi super untuk semua kebutuhan Anda.",
+        "content": "Gojek adalah perusahaan teknologi on-demand dari Indonesia yang melayani transportasi, logistik, pengiriman makanan, dan banyak layanan lainnya.",
+        "tags": ["transportasi", "indonesia", "food delivery", "ojek", "superapp"]
+    },
+    {
+        "id": 115,
+        "title": "Grab: Transportasi, Makanan, Pengiriman & Pembayaran",
+        "url": "https://www.grab.com",
+        "desc": "Grab adalah aplikasi super terkemuka di Asia Tenggara. Kami menawarkan layanan penting setiap hari seperti pengiriman, mobilitas, layanan keuangan, dan banyak lagi.",
+        "content": "Grab adalah perusahaan teknologi multinasional yang berbasis di Singapura yang menawarkan layanan ride-hailing, pengiriman makanan, dan layanan pembayaran digital.",
+        "tags": ["transportasi", "food delivery", "asia", "superapp", "pembayaran"]
+    },
+    {
+        "id": 116,
+        "title": "Lazada Indonesia - Jual Beli Online di Indonesia",
+        "url": "https://www.lazada.co.id",
+        "desc": "Belanja online mudah dan menyenangkan di Lazada.co.id. 100% asli, bisa COD, dan gratis ongkir se-Indonesia.",
+        "content": "Lazada Group adalah perusahaan e-commerce internasional yang didirikan oleh Rocket Internet pada tahun 2012, dan dimiliki oleh Alibaba Group.",
+        "tags": ["ecommerce", "belanja", "marketplace", "indonesia", "promo"]
+    },
+    {
+        "id": 117,
+        "title": "Blibli.com - Toko Online Terpercaya Indonesia",
+        "url": "https://www.blibli.com",
+        "desc": "Toko online dengan sensasi belanja ala mal. Dapatkan berbagai produk original dengan pengiriman gratis dan cicilan 0%.",
+        "content": "Blibli adalah salah satu perusahaan e-commerce di Indonesia yang berfokus pada model bisnis B2B, B2C, dan B2B2C. Merupakan anak perusahaan Djarum.",
+        "tags": ["ecommerce", "belanja", "indonesia", "original", "gadget"]
+    },
+    {
+        "id": 118,
+        "title": "Telegram Messenger",
+        "url": "https://telegram.org",
+        "desc": "Telegram adalah aplikasi perpesanan yang berfokus pada kecepatan dan keamanan, super cepat, sederhana, dan gratis.",
+        "content": "Layanan perpesanan instan berbasis cloud yang berfokus pada keamanan dan privasi. Pengguna dapat mengirim pesan, foto, video, dan file jenis apa pun.",
+        "tags": ["social", "chat", "messaging", "security", "privasi"]
+    },
+    {
+        "id": 119,
+        "title": "Discord | Tempat Anda untuk Berbicara",
+        "url": "https://discord.com",
+        "desc": "Discord adalah cara termudah untuk berbicara melalui suara, video, dan teks. Bicaralah, bergaul, dan tetap dekat dengan teman dan komunitas Anda.",
+        "content": "Platform VoIP, perpesanan instan, dan distribusi digital Amerika yang dirancang untuk menciptakan komunitas. Sangat populer di kalangan gamer.",
+        "tags": ["game", "komunitas", "chat", "voip", "social"]
+    },
+    {
+        "id": 120,
+        "title": "Slack: Kolaborasi Bisnis",
+        "url": "https://slack.com",
+        "desc": "Slack menyatukan orang, aplikasi, dan data yang Anda butuhkan untuk menyelesaikan pekerjaan. Dari perusahaan Fortune 100 hingga toko pojok.",
+        "content": "Platform komunikasi bisnis berpemilik yang dikembangkan oleh perusahaan perangkat lunak Amerika, Slack Technologies. Menawarkan ruang obrolan (saluran) yang diatur berdasarkan topik.",
+        "tags": ["work", "business", "kolaborasi", "chat", "productivity"]
+    },
+    {
+        "id": 121,
+        "title": "Trello",
+        "url": "https://trello.com",
+        "desc": "Trello membantu tim memajukan pekerjaan. Alat manajemen proyek visual yang memungkinkan tim mengelola proyek, alur kerja, atau pelacakan tugas apa pun.",
+        "content": "Aplikasi manajemen proyek berbasis web bergaya Kanban. Memungkinkan kolaborasi dan pengelolaan proyek dengan papan, daftar, dan kartu.",
+        "tags": ["work", "productivity", "project management", "kanban", "organizer"]
+    },
+    {
+        "id": 122,
+        "title": "Asana • Kelola pekerjaan tim Anda",
+        "url": "https://asana.com",
+        "desc": "Asana adalah cara termudah bagi tim untuk melacak pekerjaan mereka dan mendapatkan hasil.",
+        "content": "Aplikasi web dan seluler yang dirancang untuk membantu tim mengatur, melacak, dan mengelola pekerjaan mereka.",
+        "tags": ["work", "productivity", "project management", "tugas", "kolaborasi"]
+    },
+    {
+        "id": 123,
+        "title": "Coursera | Bangun Keterampilan dengan Kursus Online dari Universitas Terkemuka",
+        "url": "https://www.coursera.org",
+        "desc": "Bergabunglah dengan Coursera secara gratis dan pelajari pekerjaan yang sedang diminati. Dapatkan sertifikat dari universitas dan perusahaan terkemuka.",
+        "content": "Penyedia kursus online terbuka besar-besaran Amerika yang didirikan pada tahun 2012. Bekerja sama dengan universitas dan organisasi lain untuk menawarkan kursus online.",
+        "tags": ["edukasi", "kursus", "online", "sertifikat", "belajar"]
+    },
+    {
+        "id": 124,
+        "title": "edX | Kursus Online Gratis dari Harvard, MIT, & lainnya",
+        "url": "https://www.edx.org",
+        "desc": "Akses 2000+ kursus online dari 140 institusi terkemuka. Temukan kursus baru dan dapatkan sertifikat.",
+        "content": "Platform kursus online terbuka besar-besaran (MOOC) yang dibuat oleh Harvard dan MIT. Menghosting kursus tingkat universitas dalam berbagai disiplin ilmu.",
+        "tags": ["edukasi", "kursus", "online", "universitas", "belajar"]
+    },
+    {
+        "id": 125,
+        "title": "Khan Academy | Gratis. Untuk semua orang. Selamanya.",
+        "url": "https://www.khanacademy.org",
+        "desc": "Pelajari apa saja, gratis. Ribuan latihan interaktif, video, dan artikel di ujung jari Anda.",
+        "content": "Organisasi pendidikan nirlaba Amerika yang dibuat pada tahun 2008 oleh Sal Khan. Tujuannya adalah menciptakan seperangkat alat online yang membantu mendidik siswa.",
+        "tags": ["edukasi", "belajar", "gratis", "matematika", "sains"]
+    },
+    {
+        "id": 126,
+        "title": "Duolingo - Cara terbaik di dunia untuk belajar bahasa",
+        "url": "https://www.duolingo.com",
+        "desc": "Belajar bahasa dengan Duolingo itu menyenangkan dan membuat ketagihan. Dapatkan poin untuk jawaban yang benar, berlomba dengan waktu, dan naik level.",
+        "content": "Platform pembelajaran bahasa Amerika yang mencakup situs web dan aplikasi pembelajaran bahasa, serta ujian kemahiran digital.",
+        "tags": ["edukasi", "language", "belajar", "bahasa", "gratis"]
+    },
+    {
+        "id": 127,
+        "title": "W3Schools Online Web Tutorials",
+        "url": "https://www.w3schools.com",
+        "desc": "W3Schools adalah situs web pendidikan untuk mempelajari teknologi web secara online. Kontennya meliputi tutorial dan referensi yang berkaitan dengan HTML, CSS, JavaScript, dan lainnya.",
+        "content": "Sumber daya pengembang web yang populer, menawarkan tutorial dan referensi tentang bahasa pengembangan web seperti HTML, CSS, JavaScript, PHP, SQL, dan JQuery.",
+        "tags": ["coding", "tech", "programming", "edukasi", "web"]
+    },
+    {
+        "id": 128,
+        "title": "MDN Web Docs",
+        "url": "https://developer.mozilla.org",
+        "desc": "Sumber daya untuk Pengembang, oleh Pengembang. Dokumentasi tentang teknologi Web terbuka, termasuk HTML, CSS, dan API untuk Situs Web dan aplikasi.",
+        "content": "MDN Web Docs, sebelumnya Mozilla Developer Network, adalah situs dokumentasi dan sumber belajar untuk pengembang web yang digunakan oleh Mozilla, Microsoft, Google, dan Samsung.",
+        "tags": ["coding", "tech", "programming", "dokumentasi", "web"]
+    },
+    {
+        "id": 129,
+        "title": "IKEA Indonesia",
+        "url": "https://www.ikea.co.id",
+        "desc": "Beli online perabotan, furnitur, dan aksesori rumah tangga berkualitas dengan harga terjangkau di IKEA Indonesia.",
+        "content": "IKEA adalah perusahaan multinasional Swedia yang merancang dan menjual furnitur siap rakit, peralatan dapur, dan aksesori rumah.",
+        "tags": ["lifestyle", "rumah", "furnitur", "dekorasi", "belanja"]
+    },
+    {
+        "id": 130,
+        "title": "Uniqlo Indonesia",
+        "url": "https://www.uniqlo.com/id/",
+        "desc": "UNIQLO adalah merek pakaian Jepang yang menawarkan pakaian kasual berkualitas tinggi dengan harga terjangkau. LifeWear: Dibuat untuk Semua.",
+        "content": "Perusahaan Jepang yang merancang, memproduksi, dan menjual pakaian kasual. Awalnya didirikan di Yamaguchi, Jepang pada tahun 1949 sebagai produsen tekstil.",
+        "tags": ["fashion", "lifestyle", "pakaian", "belanja", "jepang"]
+    },
+    {
+        "id": 131,
+        "title": "Nike. Just Do It.",
+        "url": "https://www.nike.com",
+        "desc": "Temukan sepatu, pakaian, dan aksesori olahraga terbaru dari Nike. Belanja koleksi terbaik untuk pria, wanita, dan anak-anak.",
+        "content": "Nike, Inc. adalah perusahaan multinasional Amerika yang bergerak dalam desain, pengembangan, manufaktur, dan pemasaran serta penjualan alas kaki, pakaian, dan peralatan di seluruh dunia.",
+        "tags": ["sport", "fashion", "sepatu", "pakaian", "belanja"]
+    },
+    {
+        "id": 132,
+        "title": "Adidas Indonesia",
+        "url": "https://www.adidas.co.id",
+        "desc": "Belanja sepatu, pakaian, dan aksesori olahraga dari adidas Indonesia. Temukan koleksi Originals, Running, Football & Training.",
+        "content": "Adidas AG adalah perusahaan multinasional Jerman, didirikan dan berkantor pusat di Herzogenaurach, Bavaria, yang merancang dan memproduksi sepatu, pakaian, dan aksesori.",
+        "tags": ["sport", "fashion", "sepatu", "pakaian", "belanja"]
+    },
+    {
+        "id": 133,
+        "title": "The Guardian - Berita Dunia",
+        "url": "https://www.theguardian.com",
+        "desc": "Berita, olahraga, dan opini terbaru dari suara liberal terkemuka di dunia. Dapatkan berita terkini dari Inggris dan seluruh dunia.",
+        "content": "Surat kabar harian nasional Inggris. Didirikan pada tahun 1821 sebagai The Manchester Guardian, dan berubah nama pada tahun 1959.",
+        "tags": ["news", "berita", "world", "uk", "jurnalisme"]
+    },
+    {
+        "id": 134,
+        "title": "The Wall Street Journal - Berita Bisnis & Keuangan",
+        "url": "https://www.wsj.com",
+        "desc": "Berita terkini tentang bisnis, keuangan, ekonomi, saham, dan pasar global. Diterbitkan oleh Dow Jones.",
+        "content": "The Wall Street Journal adalah surat kabar harian internasional berbahasa Inggris yang berfokus pada bisnis yang berbasis di New York City.",
+        "tags": ["news", "business", "finance", "ekonomi", "saham"]
+    },
+    {
+        "id": 135,
+        "title": "Bloomberg: Berita Bisnis, Keuangan, dan Pasar",
+        "url": "https://www.bloomberg.com",
+        "desc": "Bloomberg memberikan berita bisnis dan pasar, data, analisis, dan video ke dunia, menampilkan cerita dari Businessweek dan Bloomberg News.",
+        "content": "Perusahaan media massa, data keuangan, dan perangkat lunak swasta yang berkantor pusat di Midtown Manhattan, New York City.",
+        "tags": ["news", "business", "finance", "pasar", "data"]
+    },
+    {
+        "id": 136,
+        "title": "Reuters: Berita Dunia, Bisnis, dan Keuangan",
+        "url": "https://www.reuters.com",
+        "desc": "Reuters membawa Anda berita utama dunia, berita bisnis, berita keuangan, dan data pasar.",
+        "content": "Kantor berita internasional yang dimiliki oleh Thomson Reuters. Ini adalah salah satu kantor berita terbesar di dunia.",
+        "tags": ["news", "berita", "world", "business", "jurnalisme"]
+    },
+    {
+        "id": 137,
+        "title": "ESPN: Skor Olahraga Terkini, Berita, dan Lainnya",
+        "url": "https://www.espn.com",
+        "desc": "Kunjungi ESPN untuk mendapatkan skor olahraga langsung, berita, statistik, sorotan, dan komentar untuk NFL, NBA, MLB, dan lainnya.",
+        "content": "Saluran televisi kabel olahraga dasar multinasional Amerika yang dimiliki oleh ESPN Inc., sebuah perusahaan patungan antara The Walt Disney Company dan Hearst Communications.",
+        "tags": ["sport", "news", "olahraga", "skor", "sepakbola"]
+    },
+    {
+        "id": 138,
+        "title": "National Geographic",
+        "url": "https://www.nationalgeographic.com",
+        "desc": "Jelajahi topik tentang sains, eksplorasi, petualangan, dan lainnya. Temukan artikel, foto, dan video.",
+        "content": "National Geographic Society adalah organisasi nirlaba ilmiah dan pendidikan global. Minatnya meliputi geografi, arkeologi, dan ilmu alam.",
+        "tags": ["science", "edukasi", "nature", "hewan", "travel"]
+    },
+    {
+        "id": 139,
+        "title": "Adobe: Solusi Kreativitas, Pemasaran, dan Manajemen Dokumen",
+        "url": "https://www.adobe.com",
+        "desc": "Adobe mengubah dunia melalui pengalaman digital. Kami membantu pelanggan kami membuat, mengirim, dan mengoptimalkan konten dan aplikasi.",
+        "content": "Perusahaan perangkat lunak komputer multinasional Amerika. Secara historis berfokus pada pembuatan perangkat lunak multimedia dan kreativitas.",
+        "tags": ["tech", "design", "software", "kreatif", "photoshop"]
+    },
+    {
+        "id": 140,
+        "title": "Oracle Corporation",
+        "url": "https://www.oracle.com",
+        "desc": "Oracle menawarkan rangkaian aplikasi cloud terintegrasi dan infrastruktur cloud yang aman dan otonom.",
+        "content": "Perusahaan teknologi komputer multinasional Amerika yang berkantor pusat di Austin, Texas. Perusahaan ini menjual perangkat lunak dan teknologi basis data.",
+        "tags": ["tech", "business", "database", "cloud", "software"]
+    },
+    {
+        "id": 141,
+        "title": "Intel: Solusi Data Center, IoT, dan PC",
+        "url": "https://www.intel.com",
+        "desc": "Inovasi Intel dalam komputasi awan, pusat data, Internet of Things, dan PC memberdayakan dunia yang cerdas dan terhubung.",
+        "content": "Perusahaan dan produsen semikonduktor multinasional Amerika yang berkantor pusat di Santa Clara, California. Produsen chip semikonduktor terbesar di dunia.",
+        "tags": ["tech", "hardware", "pc", "processor", "semiconductor"]
+    },
+    {
+        "id": 142,
+        "title": "IBM - International Business Machines",
+        "url": "https://www.ibm.com",
+        "desc": "IBM adalah pemimpin global dalam komputasi awan hybrid dan AI, melayani klien di lebih dari 170 negara.",
+        "content": "Perusahaan teknologi multinasional Amerika yang berkantor pusat di Armonk, New York, dengan operasi di lebih dari 170 negara.",
+        "tags": ["tech", "business", "ai", "cloud", "enterprise"]
+    },
+    {
+        "id": 143,
+        "title": "Salesforce: Kami Menyatukan Perusahaan dan Pelanggan",
+        "url": "https://www.salesforce.com",
+        "desc": "Personalisasikan pemasaran, penjualan, dan layanan dalam satu platform manajemen hubungan pelanggan (CRM).",
+        "content": "Perusahaan perangkat lunak berbasis cloud Amerika yang berkantor pusat di San Francisco, California. Menyediakan layanan manajemen hubungan pelanggan (CRM).",
+        "tags": ["business", "crm", "software", "cloud", "sales"]
+    },
+    {
+        "id": 144,
+        "title": "SAP: Pemimpin Pasar dalam Perangkat Lunak Aplikasi Perusahaan",
+        "url": "https://www.sap.com",
+        "desc": "Dapatkan perangkat lunak dan teknologi yang Anda butuhkan untuk menjalankan bisnis Anda dengan cara terbaik, termasuk ERP, CRM, manajemen data, dan lainnya.",
+        "content": "Perusahaan perangkat lunak multinasional Jerman yang berbasis di Walldorf, Baden-Württemberg, yang mengembangkan perangkat lunak perusahaan untuk mengelola operasi bisnis.",
+        "tags": ["business", "erp", "software", "enterprise", "tech"]
+    },
+    {
+        "id": 145,
+        "title": "Google Docs: Editor Dokumen Online",
+        "url": "https://docs.google.com",
+        "desc": "Buat dan edit dokumen web dengan Google Docs, bagian dari Google Workspace. Berkolaborasi secara real-time.",
+        "content": "Pengolah kata online yang disertakan sebagai bagian dari rangkaian Google Docs Editors gratis berbasis web yang ditawarkan oleh Google.",
+        "tags": ["productivity", "work", "dokumen", "google", "kolaborasi"]
+    },
+    {
+        "id": 146,
+        "title": "Google Sheets: Editor Spreadsheet Online",
+        "url": "https://sheets.google.com",
+        "desc": "Buat dan edit spreadsheet dengan Google Sheets, bagian dari Google Workspace. Analisis data dengan bagan dan filter.",
+        "content": "Program spreadsheet yang disertakan sebagai bagian dari rangkaian Google Docs Editors gratis berbasis web yang ditawarkan oleh Google.",
+        "tags": ["productivity", "work", "spreadsheet", "google", "data"]
+    },
+    {
+        "id": 147,
+        "title": "Google Slides: Editor Presentasi Online",
+        "url": "https://slides.google.com",
+        "desc": "Buat dan edit presentasi yang dipoles di browser Anda tanpa perlu perangkat lunak. Bagian dari Google Workspace.",
+        "content": "Program presentasi yang disertakan sebagai bagian dari rangkaian Google Docs Editors gratis berbasis web yang ditawarkan oleh Google.",
+        "tags": ["productivity", "work", "presentasi", "google", "kolaborasi"]
+    },
+    {
+        "id": 148,
+        "title": "Miro | Papan Tulis Online untuk Kolaborasi Tim",
+        "url": "https://miro.com",
+        "desc": "Papan tulis kolaboratif online tempat tim menyelesaikan pekerjaan. Brainstorming, perencanaan, dan lokakarya visual.",
+        "content": "Platform papan tulis online yang memungkinkan tim terdistribusi untuk bekerja sama secara efektif, dari brainstorming dengan catatan tempel digital hingga merencanakan dan mengelola alur kerja.",
+        "tags": ["work", "kolaborasi", "whiteboard", "productivity", "brainstorming"]
+    },
+    {
+        "id": 149,
+        "title": "Codecademy: Belajar Koding",
+        "url": "https://www.codecademy.com",
+        "desc": "Belajar keterampilan teknis untuk mendapatkan pekerjaan yang Anda inginkan. Bergabunglah dengan jutaan pelajar di seluruh dunia yang membangun karir mereka.",
+        "content": "Platform online interaktif Amerika yang menawarkan kelas koding gratis dalam 12 bahasa pemrograman yang berbeda termasuk Python, Java, Go, JavaScript, Ruby, SQL, C++, C#, dan Swift.",
+        "tags": ["coding", "edukasi", "programming", "tech", "belajar"]
+    },
+    {
+        "id": 150,
+        "title": "freeCodeCamp.org",
+        "url": "https://www.freecodecamp.org",
+        "desc": "Belajar koding secara gratis. Bangun proyek. Dapatkan sertifikasi. Sejak 2014, lebih dari 40.000 lulusan freeCodeCamp.org telah mendapatkan pekerjaan di perusahaan teknologi.",
+        "content": "Organisasi nirlaba yang terdiri dari platform pembelajaran web interaktif, forum komunitas online, ruang obrolan, publikasi online, dan organisasi lokal.",
+        "tags": ["coding", "edukasi", "programming", "gratis", "belajar"]
+    },
+    {
+        "id": 151,
+        "title": "GeeksforGeeks | Portal untuk Geeks",
+        "url": "https://www.geeksforgeeks.org",
+        "desc": "Portal ilmu komputer untuk geeks. Berisi artikel ilmu komputer dan pemrograman yang ditulis dengan baik, dipikirkan dengan baik, dan dijelaskan dengan baik.",
+        "content": "Situs web pendidikan yang menawarkan artikel, tutorial, dan sumber daya lain tentang berbagai topik ilmu komputer dan pemrograman.",
+        "tags": ["coding", "tech", "programming", "edukasi", "algoritma"]
+    },
+    {
+        "id": 152,
+        "title": "Brainly - Untuk Siswa. Oleh Siswa.",
+        "url": "https://brainly.co.id",
+        "desc": "Brainly adalah tempat untuk berbagi dan menjelajahi pengetahuan dalam komunitas kolaboratif dengan jutaan siswa dan pakar.",
+        "content": "Perusahaan teknologi pendidikan Polandia yang berbasis di Kraków, Polandia. Ini mengoperasikan sekelompok platform pembelajaran sosial untuk siswa dan pendidik.",
+        "tags": ["edukasi", "sekolah", "belajar", "q&a", "pr"]
+    },
+    {
+        "id": 153,
+        "title": "GoFood - Pesan Antar Makanan Online",
+        "url": "https://gofood.co.id",
+        "desc": "Pesan makanan favoritmu dari ribuan restoran dengan GoFood. Cepat, mudah, dan praktis. Bagian dari aplikasi Gojek.",
+        "content": "Layanan pesan-antar makanan on-demand yang merupakan bagian dari ekosistem Gojek. Menghubungkan pelanggan dengan berbagai restoran dan penjual makanan.",
+        "tags": ["food", "delivery", "indonesia", "kuliner", "gojek"]
+    },
+    {
+        "id": 154,
+        "title": "GrabFood - Layanan Pesan Antar Makanan",
+        "url": "https://food.grab.com",
+        "desc": "Lapar? Pesan makanan dari restoran favorit Anda dan dapatkan diantar ke depan pintu Anda dengan GrabFood.",
+        "content": "Layanan pengiriman makanan yang dioperasikan oleh Grab. Memungkinkan pengguna untuk memesan makanan dari restoran lokal melalui aplikasi seluler.",
+        "tags": ["food", "delivery", "asia", "kuliner", "grab"]
+    },
+    {
+        "id": 155,
+        "title": "H&M Indonesia - Fashion dan Kualitas dengan Harga Terbaik",
+        "url": "https://www2.hm.com/id_id/",
+        "desc": "Tawarkan fashion dan kualitas dengan harga terbaik secara berkelanjutan. Selamat datang di H&M, tujuan belanja Anda untuk fashion online.",
+        "content": "Perusahaan ritel pakaian multinasional Swedia yang terkenal dengan pakaian fast-fashion untuk pria, wanita, remaja, dan anak-anak.",
+        "tags": ["fashion", "lifestyle", "pakaian", "belanja", "retail"]
+    },
+    {
+        "id": 156,
+        "title": "ZARA Indonesia | Koleksi Baru Online",
+        "url": "https://www.zara.com/id/",
+        "desc": "Temukan tren terbaru dalam pakaian, sepatu, dan aksesori untuk wanita, pria, dan anak-anak di ZARA online.",
+        "content": "Pengecer pakaian dan aksesori Spanyol yang berbasis di Arteixo, Galicia. Perusahaan ini berspesialisasi dalam fast fashion.",
+        "tags": ["fashion", "lifestyle", "pakaian", "belanja", "retail"]
+    },
+    {
+        "id": 157,
+        "title": "Steam: Platform Hiburan Online Terbaik",
+        "url": "https://store.steampowered.com",
+        "desc": "Steam adalah platform distribusi digital video game oleh Valve. Beli, mainkan, dan diskusikan game PC.",
+        "content": "Layanan distribusi digital video game oleh Valve. Diluncurkan sebagai klien perangkat lunak mandiri pada September 2003 sebagai cara bagi Valve untuk menyediakan pembaruan otomatis untuk game mereka.",
+        "tags": ["game", "pc", "entertainment", "software", "store"]
+    },
+    {
+        "id": 158,
+        "title": "Epic Games Store | Unduh & Mainkan Game PC",
+        "url": "https://www.epicgames.com/store/",
+        "desc": "Selamat datang di Epic Games Store. Unduh dan mainkan game PC dari semua genre. Kami memiliki mod, game gratis, dan komunitas game yang hebat.",
+        "content": "Etalase distribusi video game digital untuk Microsoft Windows dan macOS, yang dioperasikan oleh Epic Games. Menawarkan game gratis setiap minggu.",
+        "tags": ["game", "pc", "entertainment", "store", "gratis"]
+    },
+    {
+        "id": 159,
+        "title": "Alodokter: Platform Kesehatan Terpercaya",
+        "url": "https://www.alodokter.com",
+        "desc": "Informasi kesehatan akurat, chat dengan dokter, buat janji rumah sakit, dan belanja kebutuhan kesehatan.",
+        "content": "Alodokter adalah platform kesehatan digital nomor satu di Indonesia yang memberdayakan pasien dengan informasi kesehatan yang akurat, mudah diakses, dan dapat ditindaklanjuti.",
+        "tags": ["health", "kesehatan", "dokter", "informasi", "indonesia"]
+    },
+    {
+        "id": 160,
+        "title": "Halodoc: Solusi Kesehatan Lengkap",
+        "url": "https://www.halodoc.com",
+        "desc": "Bicara dengan dokter, beli obat, dan buat janji di rumah sakit. Semua dalam satu aplikasi. Hidup lebih sehat jadi lebih mudah.",
+        "content": "Halodoc adalah ekosistem kesehatan digital yang berbasis di Jakarta, Indonesia. Platform ini menghubungkan pasien dengan dokter, asuransi, apotek, dan laboratorium.",
+        "tags": ["health", "kesehatan", "dokter", "obat", "indonesia"]
+    },
+    {
+        "id": 161,
+        "title": "CNN Indonesia",
+        "url": "https://www.cnnindonesia.com",
+        "desc": "Berita terbaru dan terkini Indonesia seputar nasional, politik, ekonomi, internasional, olahraga, teknologi, hiburan, dan gaya hidup.",
+        "content": "CNN Indonesia adalah stasiun televisi berita dan situs berita milik Trans Media bekerja sama dengan Turner International.",
+        "tags": ["news", "berita", "indonesia", "politik", "ekonomi"]
+    },
+    {
+        "id": 162,
+        "title": "CNBC Indonesia",
+        "url": "https://www.cnbcindonesia.com",
+        "desc": "Berita ekonomi dan bisnis terkini, indeks saham, pasar modal, finansial, dan investasi.",
+        "content": "CNBC Indonesia menyajikan informasi ekonomi terintegrasi dan mendalam untuk para pelaku bisnis dan pasar modal.",
+        "tags": ["news", "business", "finance", "saham", "ekonomi"]
+    },
+    {
+        "id": 163,
+        "title": "Tempo.co",
+        "url": "https://www.tempo.co",
+        "desc": "Berita terkini, berita hari ini, berita terbaru, berita populer, dan berita terhangat dari Indonesia dan dunia.",
+        "content": "Tempo.co adalah portal berita yang dikelola oleh PT Tempo Inti Media Tbk, dikenal dengan jurnalisme investigasinya.",
+        "tags": ["news", "berita", "indonesia", "investigasi", "politik"]
+    },
+    {
+        "id": 164,
+        "title": "Tribunnews.com",
+        "url": "https://www.tribunnews.com",
+        "desc": "Berita terkini Indonesia, daerah, hiburan, seleb, dan olahraga. Jaringan berita terbesar di Indonesia.",
+        "content": "Tribunnews adalah situs berita yang dikelola oleh Tribun Network, bagian dari kelompok Kompas Gramedia.",
+        "tags": ["news", "berita", "indonesia", "daerah", "hiburan"]
+    },
+    {
+        "id": 165,
+        "title": "Liputan6.com",
+        "url": "https://www.liputan6.com",
+        "desc": "Berita hari ini, kabar harian terbaru terkini Indonesia dan dunia. Topik politik, ekonomi, hukum, kriminal, olahraga, otomotif, hiburan.",
+        "content": "Liputan6.com adalah situs berita yang menyajikan informasi aktual, tajam, dan terpercaya.",
+        "tags": ["news", "berita", "indonesia", "terkini", "hiburan"]
+    },
+    {
+        "id": 166,
+        "title": "Suara.com",
+        "url": "https://www.suara.com",
+        "desc": "Situs berita hari ini, berita terbaru dan terkini. Jujur, berimbang, dan independen.",
+        "content": "Suara.com adalah portal berita digital yang menyajikan informasi beragam mulai dari politik hingga gaya hidup.",
+        "tags": ["news", "berita", "indonesia", "independen", "lifestyle"]
+    },
+    {
+        "id": 167,
+        "title": "IDN Times",
+        "url": "https://www.idntimes.com",
+        "desc": "The Voice of Millennials and Gen Z. Berita terkini, hype, dan inspiratif untuk anak muda Indonesia.",
+        "content": "IDN Times adalah media multi-platform untuk milenial dan Gen Z di Indonesia.",
+        "tags": ["news", "lifestyle", "millennial", "genz", "hiburan"]
+    },
+    {
+        "id": 168,
+        "title": "Kumparan",
+        "url": "https://kumparan.com",
+        "desc": "Platform media berita kolaboratif terkini Indonesia. Baca dan buat berita di Kumparan.",
+        "content": "Kumparan menggabungkan jurnalisme berbasis teknologi dengan platform media sosial.",
+        "tags": ["news", "berita", "komunitas", "indonesia", "kolaborasi"]
+    },
+    {
+        "id": 169,
+        "title": "KASKUS",
+        "url": "https://www.kaskus.co.id",
+        "desc": "Komunitas online terbesar di Indonesia. Forum diskusi, jual beli, dan grup hobi.",
+        "content": "Kaskus adalah forum komunitas maya terbesar dan nomor satu di Indonesia. Penggunanya disebut Kaskuser.",
+        "tags": ["social", "forum", "komunitas", "diskusi", "hobby"]
+    },
+    {
+        "id": 170,
+        "title": "Female Daily",
+        "url": "https://femaledaily.com",
+        "desc": "Platform kecantikan online terbesar di Indonesia. Review produk makeup dan skincare, forum, dan artikel.",
+        "content": "Female Daily menghubungkan wanita Indonesia melalui kecantikan. Tempat mencari ulasan jujur tentang produk kecantikan.",
+        "tags": ["beauty", "lifestyle", "review", "wanita", "makeup"]
+    },
+    {
+        "id": 171,
+        "title": "Sociolla",
+        "url": "https://www.sociolla.com",
+        "desc": "Belanja kosmetik, skincare, dan produk kecantikan asli dan BPOM terlengkap di Indonesia.",
+        "content": "Sociolla adalah e-commerce kecantikan terpercaya di Indonesia yang menawarkan berbagai merek lokal dan internasional.",
+        "tags": ["ecommerce", "beauty", "belanja", "skincare", "makeup"]
+    },
+    {
+        "id": 172,
+        "title": "Sephora Indonesia",
+        "url": "https://www.sephora.co.id",
+        "desc": "Temukan produk kecantikan terbaru, makeup, perawatan kulit, wewangian, dan lainnya dari merek-merek ternama.",
+        "content": "Sephora adalah peritel produk kecantikan multinasional yang menawarkan berbagai macam produk kosmetik dan perawatan tubuh.",
+        "tags": ["ecommerce", "beauty", "belanja", "premium", "makeup"]
+    },
+    {
+        "id": 173,
+        "title": "ZALORA Indonesia",
+        "url": "https://www.zalora.co.id",
+        "desc": "Pusat belanja fashion online terbesar di Indonesia. Produk original dari brand lokal dan internasional.",
+        "content": "Zalora adalah bagian dari Global Fashion Group, destinasi fashion online utama di Asia.",
+        "tags": ["ecommerce", "fashion", "belanja", "pakaian", "lifestyle"]
+    },
+    {
+        "id": 174,
+        "title": "Matahari.com",
+        "url": "https://www.matahari.com",
+        "desc": "Belanja online fashion wanita, pria, dan anak. Produk berkualitas dengan harga terjangkau.",
+        "content": "Matahari adalah platform ritel terbesar di Indonesia untuk produk fashion, kecantikan, dan rumah tangga.",
+        "tags": ["ecommerce", "fashion", "belanja", "retail", "keluarga"]
+    },
+    {
+        "id": 175,
+        "title": "Mapclub",
+        "url": "https://www.mapclub.com",
+        "desc": "Belanja online dari brand-brand MAP (Mitra Adiperkasa) seperti SOGO, Planet Sports, Zara, dan lainnya.",
+        "content": "Mapclub adalah program loyalitas dan toko online untuk merek-merek gaya hidup di bawah naungan MAP Group.",
+        "tags": ["ecommerce", "belanja", "lifestyle", "brand", "retail"]
+    },
+    {
+        "id": 176,
+        "title": "KlikIndomaret",
+        "url": "https://www.klikindomaret.com",
+        "desc": "Toko online Indomaret. Belanja kebutuhan sehari-hari, makanan, minuman, dan produk digital.",
+        "content": "Layanan belanja online dari jaringan minimarket Indomaret. Praktis dan hemat.",
+        "tags": ["ecommerce", "belanja", "groceries", "retail", "indomaret"]
+    },
+    {
+        "id": 177,
+        "title": "Alfagift",
+        "url": "https://alfagift.id",
+        "desc": "Aplikasi belanja online Alfamart. Nikmati promo eksklusif dan pengiriman cepat.",
+        "content": "Alfagift adalah aplikasi loyalitas dan belanja online yang terintegrasi dengan jaringan toko Alfamart.",
+        "tags": ["ecommerce", "belanja", "groceries", "retail", "alfamart"]
+    },
+    {
+        "id": 178,
+        "title": "Sayurbox",
+        "url": "https://www.sayurbox.com",
+        "desc": "Belanja sayur dan buah segar langsung dari petani lokal. Pengiriman cepat dan kualitas terjamin.",
+        "content": "Sayurbox adalah platform e-commerce farm-to-table yang memudahkan konsumen mendapatkan produk segar.",
+        "tags": ["ecommerce", "food", "groceries", "segar", "pertanian"]
+    },
+    {
+        "id": 179,
+        "title": "Segari",
+        "url": "https://segari.id",
+        "desc": "Supermarket online untuk belanja sayur, buah, daging, dan kebutuhan dapur. Jaminan kesegaran.",
+        "content": "Segari menawarkan pengalaman belanja bahan makanan segar dengan jaminan kualitas terbaik.",
+        "tags": ["ecommerce", "food", "groceries", "segar", "masak"]
+    },
+    {
+        "id": 180,
+        "title": "HappyFresh",
+        "url": "https://www.happyfresh.id",
+        "desc": "Personal shopper untuk belanja kebutuhan harianmu dari supermarket favorit.",
+        "content": "HappyFresh bermitra dengan supermarket besar untuk menyediakan layanan belanja dan pengiriman bahan makanan.",
+        "tags": ["ecommerce", "groceries", "delivery", "belanja", "supermarket"]
+    },
+    {
+        "id": 181,
+        "title": "Ruangguru",
+        "url": "https://www.ruangguru.com",
+        "desc": "Aplikasi belajar online nomor 1 di Indonesia. Video belajar, latihan soal, dan les privat.",
+        "content": "Ruangguru adalah perusahaan teknologi pendidikan terbesar di Indonesia yang menyediakan layanan belajar berbasis teknologi.",
+        "tags": ["edukasi", "belajar", "sekolah", "online", "tech"]
+    },
+    {
+        "id": 182,
+        "title": "Zenius",
+        "url": "https://www.zenius.net",
+        "desc": "Platform belajar online dengan ribuan video materi dan latihan soal untuk SD, SMP, SMA, dan UTBK.",
+        "content": "Zenius Education berfokus pada pemahaman konsep dan penalaran ilmiah dalam proses belajar.",
+        "tags": ["edukasi", "belajar", "sekolah", "sains", "utbk"]
+    },
+    {
+        "id": 183,
+        "title": "Quipper",
+        "url": "https://www.quipper.com/id",
+        "desc": "Layanan belajar online untuk siswa dan guru. Materi lengkap sesuai kurikulum nasional.",
+        "content": "Quipper menyediakan konten pendidikan digital dan platform manajemen pembelajaran untuk sekolah.",
+        "tags": ["edukasi", "belajar", "sekolah", "guru", "kurikulum"]
+    },
+    {
+        "id": 184,
+        "title": "Udemy",
+        "url": "https://www.udemy.com",
+        "desc": "Platform kursus online global. Pelajari coding, bisnis, desain, pemasaran, dan banyak lagi.",
+        "content": "Udemy menghubungkan pelajar dengan instruktur ahli di seluruh dunia untuk meningkatkan keterampilan.",
+        "tags": ["edukasi", "kursus", "online", "skill", "global"]
+    },
+    {
+        "id": 185,
+        "title": "Skill Academy",
+        "url": "https://skillacademy.com",
+        "desc": "Platform pelatihan online bersertifikat untuk pengembangan karir dan bisnis. Bagian dari Ruangguru.",
+        "content": "Skill Academy menawarkan kelas-kelas prakerja dan pengembangan diri dengan instruktur profesional.",
+        "tags": ["edukasi", "kursus", "karir", "prakerja", "skill"]
+    },
+    {
+        "id": 186,
+        "title": "Dicoding",
+        "url": "https://www.dicoding.com",
+        "desc": "Bangun karirmu sebagai developer profesional. Platform belajar pemrograman terbaik di Indonesia.",
+        "content": "Dicoding adalah mitra Google Developers Authorized Training Partner di Indonesia.",
+        "tags": ["coding", "edukasi", "programming", "developer", "tech"]
+    },
+    {
+        "id": 187,
+        "title": "Glints",
+        "url": "https://glints.com/id",
+        "desc": "Temukan lowongan kerja, magang, dan peluang karir di perusahaan impianmu.",
+        "content": "Glints adalah platform rekrutmen dan pengembangan karir terkemuka di Asia Tenggara.",
+        "tags": ["career", "work", "lowongan", "magang", "jobs"]
+    },
+    {
+        "id": 188,
+        "title": "JobStreet Indonesia",
+        "url": "https://www.jobstreet.co.id",
+        "desc": "Situs lowongan kerja nomor 1 di Indonesia. Cari dan lamar pekerjaan yang sesuai dengan keahlianmu.",
+        "content": "JobStreet menghubungkan pencari kerja dengan perusahaan yang membutuhkan talenta terbaik.",
+        "tags": ["career", "work", "lowongan", "jobs", "rekrutmen"]
+    },
+    {
+        "id": 189,
+        "title": "Kalibrr",
+        "url": "https://www.kalibrr.com",
+        "desc": "Temukan pekerjaan di perusahaan teknologi dan startup terbaik. Platform rekrutmen berbasis AI.",
+        "content": "Kalibrr membantu perusahaan menemukan kandidat yang tepat melalui tes keterampilan dan algoritma pencocokan.",
+        "tags": ["career", "work", "tech", "startup", "jobs"]
+    },
+    {
+        "id": 190,
+        "title": "KitaLulus",
+        "url": "https://www.kitalulus.com",
+        "desc": "Aplikasi cari kerja teraman di Indonesia. Lowongan kerja terverifikasi dan proses cepat.",
+        "content": "KitaLulus memfasilitasi pencari kerja dengan lowongan yang aman dari penipuan.",
+        "tags": ["career", "work", "lowongan", "aman", "jobs"]
+    },
+    {
+        "id": 191,
+        "title": "Tech in Asia Indonesia",
+        "url": "https://id.techinasia.com",
+        "desc": "Komunitas online pelaku startup di Asia. Berita teknologi, event, dan lowongan kerja startup.",
+        "content": "Tech in Asia meliput perkembangan ekosistem teknologi dan startup di kawasan Asia.",
+        "tags": ["tech", "startup", "news", "business", "asia"]
+    },
+    {
+        "id": 192,
+        "title": "DailySocial.id",
+        "url": "https://dailysocial.id",
+        "desc": "Media teknologi yang menyajikan berita, opini, dan analisis mendalam tentang ekosistem digital.",
+        "content": "DailySocial fokus pada inovasi teknologi dan transformasi digital di Indonesia.",
+        "tags": ["tech", "news", "startup", "digital", "inovasi"]
+    },
+    {
+        "id": 193,
+        "title": "Jagat Review",
+        "url": "https://www.jagatreview.com",
+        "desc": "Review gadget, komputer, laptop, dan teknologi terbaru secara mendalam dan objektif.",
+        "content": "Jagat Review adalah referensi utama bagi penggemar teknologi di Indonesia untuk ulasan perangkat keras.",
+        "tags": ["tech", "gadget", "review", "hardware", "pc"]
+    },
+    {
+        "id": 194,
+        "title": "GSMArena",
+        "url": "https://www.gsmarena.com",
+        "desc": "Sumber informasi spesifikasi HP terlengkap, review, dan berita gadget global.",
+        "content": "GSMArena adalah database ponsel paling komprehensif di dunia dengan ulasan mendetail.",
+        "tags": ["tech", "gadget", "mobile", "review", "spesifikasi"]
+    },
+    {
+        "id": 195,
+        "title": "The Verge",
+        "url": "https://www.theverge.com",
+        "desc": "Berita teknologi, sains, seni, dan budaya. Ulasan produk dan laporan masa depan.",
+        "content": "The Verge meliput persimpangan antara teknologi, sains, seni, dan budaya.",
+        "tags": ["tech", "news", "culture", "science", "review"]
+    },
+    {
+        "id": 196,
+        "title": "TechCrunch",
+        "url": "https://techcrunch.com",
+        "desc": "Berita startup, pendanaan, dan teknologi terkini dari Silicon Valley dan dunia.",
+        "content": "TechCrunch adalah publikasi online terkemuka yang berfokus pada industri teknologi dan ekosistem startup.",
+        "tags": ["tech", "startup", "business", "news", "venture"]
+    },
+    {
+        "id": 197,
+        "title": "Wired",
+        "url": "https://www.wired.com",
+        "desc": "Bagaimana teknologi mengubah setiap aspek kehidupan kita, dari budaya hingga bisnis, sains hingga desain.",
+        "content": "Wired adalah majalah bulanan Amerika yang berfokus pada teknologi baru dan dampaknya terhadap budaya, ekonomi, dan politik.",
+        "tags": ["tech", "culture", "science", "future", "magazine"]
+    },
+    {
+        "id": 198,
+        "title": "Engadget",
+        "url": "https://www.engadget.com",
+        "desc": "Sumber berita dan ulasan teknologi konsumen. Gadget, game, dan hiburan.",
+        "content": "Engadget adalah jaringan blog teknologi multibahasa dan sumber berita harian tentang gadget dan elektronik konsumen.",
+        "tags": ["tech", "gadget", "review", "news", "electronics"]
+    },
+    {
+        "id": 199,
+        "title": "Gizmodo",
+        "url": "https://gizmodo.com",
+        "desc": "Berita teknologi, sains, dan fiksi ilmiah. Gadget aneh dan penemuan terbaru.",
+        "content": "Gizmodo adalah situs web desain, teknologi, sains, dan fiksi ilmiah.",
+        "tags": ["tech", "science", "gadget", "news", "scifi"]
+    },
+    {
+        "id": 200,
+        "title": "CNET",
+        "url": "https://www.cnet.com",
+        "desc": "Panduan teknologi modern. Ulasan produk, berita, harga, dan video.",
+        "content": "CNET melacak semua perubahan teknologi konsumen dan memberi tahu Anda apa yang baru, apa yang penting, dan cara kerjanya.",
+        "tags": ["tech", "review", "news", "gadget", "guide"]
+    },
+    {
+        "id": 201,
+        "title": "PCMag",
+        "url": "https://www.pcmag.com",
+        "desc": "Ulasan independen tentang produk teknologi terbaru, berita, dan panduan cara.",
+        "content": "PCMag adalah otoritas terkemuka dalam pengujian berbasis laboratorium independen untuk produk teknologi terbaru.",
+        "tags": ["tech", "pc", "review", "software", "hardware"]
+    },
+    {
+        "id": 202,
+        "title": "Tom's Hardware",
+        "url": "https://www.tomshardware.com",
+        "desc": "Berita dan ulasan untuk penggemar perangkat keras komputer, overclocker, dan gamer.",
+        "content": "Tom's Hardware adalah sumber utama untuk berita teknologi, ulasan, dan panduan pembelian komponen PC.",
+        "tags": ["tech", "hardware", "pc", "gaming", "components"]
+    },
+    {
+        "id": 203,
+        "title": "Android Authority",
+        "url": "https://www.androidauthority.com",
+        "desc": "Sumber utama untuk semua hal tentang Android. Berita, ulasan, aplikasi, dan tips.",
+        "content": "Android Authority didedikasikan untuk menyediakan berita, ulasan, dan panduan terbaik tentang ekosistem Android.",
+        "tags": ["tech", "android", "mobile", "google", "apps"]
+    },
+    {
+        "id": 204,
+        "title": "9to5Mac",
+        "url": "https://9to5mac.com",
+        "desc": "Berita Apple terkini. iPhone, iPad, Mac, Apple Watch, dan lainnya.",
+        "content": "9to5Mac memberikan liputan berita harian tentang segala hal yang berkaitan dengan Apple Inc.",
+        "tags": ["tech", "apple", "mac", "iphone", "news"]
+    },
+    {
+        "id": 205,
+        "title": "MacRumors",
+        "url": "https://www.macrumors.com",
+        "desc": "Berita dan rumor Apple. Diskusi komunitas tentang produk Apple masa depan.",
+        "content": "MacRumors adalah situs web yang mengumpulkan berita, rumor, dan laporan terkait Apple.",
+        "tags": ["tech", "apple", "rumors", "news", "forum"]
+    },
+    {
+        "id": 206,
+        "title": "TripAdvisor",
+        "url": "https://www.tripadvisor.com",
+        "desc": "Platform perjalanan terbesar di dunia. Ulasan hotel, restoran, dan aktivitas wisata.",
+        "content": "TripAdvisor membantu pelancong merencanakan dan memesan perjalanan yang sempurna melalui ulasan dari jutaan pelancong.",
+        "tags": ["travel", "review", "hotel", "wisata", "booking"]
+    },
+    {
+        "id": 207,
+        "title": "Agoda",
+        "url": "https://www.agoda.com",
+        "desc": "Pesan hotel, resort, hostel, dan akomodasi lainnya dengan harga diskon.",
+        "content": "Agoda adalah agen perjalanan online yang berbasis di Singapura, menawarkan layanan pemesanan akomodasi.",
+        "tags": ["travel", "hotel", "booking", "liburan", "promo"]
+    },
+    {
+        "id": 208,
+        "title": "Booking.com",
+        "url": "https://www.booking.com",
+        "desc": "Pilihan akomodasi online terbesar di dunia. Hotel, apartemen, vila, dan lainnya.",
+        "content": "Booking.com menghubungkan pelancong dengan berbagai tempat menginap yang luar biasa di seluruh dunia.",
+        "tags": ["travel", "hotel", "booking", "akomodasi", "global"]
+    },
+    {
+        "id": 209,
+        "title": "Expedia",
+        "url": "https://www.expedia.com",
+        "desc": "Situs perjalanan lengkap. Pesan tiket pesawat, hotel, sewa mobil, dan paket liburan.",
+        "content": "Expedia adalah salah satu perusahaan perjalanan online terkemuka di dunia.",
+        "tags": ["travel", "tiket", "hotel", "liburan", "booking"]
+    },
+    {
+        "id": 210,
+        "title": "Skyscanner",
+        "url": "https://www.skyscanner.co.id",
+        "desc": "Bandingkan tiket pesawat murah, hotel, dan sewa mobil dari berbagai maskapai dan agen perjalanan.",
+        "content": "Skyscanner adalah mesin pencari perjalanan global yang membantu Anda menemukan opsi perjalanan terbaik.",
+        "tags": ["travel", "tiket", "penerbangan", "search", "murah"]
+    },
+    {
+        "id": 211,
+        "title": "Klook",
+        "url": "https://www.klook.com",
+        "desc": "Temukan dan pesan aktivitas wisata, atraksi, tur, dan transportasi lokal.",
+        "content": "Klook adalah platform pemesanan aktivitas dan layanan perjalanan terkemuka di Asia.",
+        "tags": ["travel", "wisata", "aktivitas", "tur", "liburan"]
+    },
+    {
+        "id": 212,
+        "title": "Mister Aladin",
+        "url": "https://www.misteraladin.com",
+        "desc": "Pesan hotel dan tiket pesawat dengan harga hemat. Teman perjalanan terbaikmu.",
+        "content": "Mister Aladin menawarkan berbagai pilihan hotel dan tiket pesawat dengan promo menarik.",
+        "tags": ["travel", "hotel", "tiket", "indonesia", "booking"]
+    },
+    {
+        "id": 213,
+        "title": "RedDoorz",
+        "url": "https://www.reddoorz.com",
+        "desc": "Jaringan penginapan budget terbesar di Asia Tenggara. Nyaman dan terjangkau.",
+        "content": "RedDoorz menyediakan akomodasi standar dengan harga terjangkau untuk pelancong budget.",
+        "tags": ["travel", "hotel", "budget", "penginapan", "asia"]
+    },
+    {
+        "id": 214,
+        "title": "OYO Rooms",
+        "url": "https://www.oyorooms.com",
+        "desc": "Jaringan hotel, rumah, dan ruang tinggal terbesar di dunia. Harga murah fasilitas lengkap.",
+        "content": "OYO menawarkan pengalaman menginap yang terstandarisasi dengan harga yang kompetitif.",
+        "tags": ["travel", "hotel", "budget", "penginapan", "global"]
+    },
+    {
+        "id": 215,
+        "title": "Bobobox",
+        "url": "https://bobobox.com",
+        "desc": "Hotel kapsul teknologi tinggi yang nyaman dan unik. Pengalaman menginap masa depan.",
+        "content": "Bobobox adalah jaringan hotel kapsul yang mengutamakan teknologi dan kenyamanan tidur.",
+        "tags": ["travel", "hotel", "kapsul", "tech", "unik"]
+    },
+    {
+        "id": 216,
+        "title": "PergiKuliner",
+        "url": "https://pergikuliner.com",
+        "desc": "Direktori dan review tempat makan enak di Jakarta, Bandung, Surabaya, dan kota lainnya.",
+        "content": "PergiKuliner membantu Anda menemukan rekomendasi kuliner terbaik berdasarkan ulasan pengguna asli.",
+        "tags": ["food", "review", "kuliner", "restoran", "indonesia"]
+    },
+    {
+        "id": 217,
+        "title": "Qraved",
+        "url": "https://www.qraved.com",
+        "desc": "Temukan restoran terbaik, promo makan, dan inspirasi kuliner di sekitarmu.",
+        "content": "Qraved adalah aplikasi direktori makanan dan gaya hidup yang populer di Indonesia.",
+        "tags": ["food", "kuliner", "restoran", "promo", "lifestyle"]
+    },
+    {
+        "id": 218,
+        "title": "OpenRice Indonesia",
+        "url": "https://id.openrice.com",
+        "desc": "Cari restoran dan baca review makanan dari pecinta kuliner.",
+        "content": "OpenRice adalah panduan makan yang komprehensif dengan database restoran yang luas.",
+        "tags": ["food", "review", "kuliner", "restoran", "makan"]
+    },
+    {
+        "id": 219,
+        "title": "Cookpad Indonesia",
+        "url": "https://cookpad.com/id",
+        "desc": "Komunitas berbagi resep masakan rumahan terbesar. Temukan inspirasi masak setiap hari.",
+        "content": "Cookpad memungkinkan pengguna untuk membagikan dan mencari resep masakan buatan sendiri.",
+        "tags": ["food", "resep", "masak", "komunitas", "rumahan"]
+    },
+    {
+        "id": 220,
+        "title": "ResepKoki",
+        "url": "https://resepkoki.id",
+        "desc": "Kumpulan resep masakan Indonesia dan mancanegara yang mudah dipraktikkan.",
+        "content": "ResepKoki menyajikan panduan memasak langkah demi langkah dengan tips anti gagal.",
+        "tags": ["food", "resep", "masak", "kuliner", "tips"]
+    },
+    {
+        "id": 221,
+        "title": "Masak Apa Hari Ini",
+        "url": "https://www.masakapahariini.com",
+        "desc": "Inspirasi menu harian, resep praktis, dan tips dapur dari para ahli.",
+        "content": "Situs resmi dari Unilever Food Solutions yang menyediakan berbagai resep lezat.",
+        "tags": ["food", "resep", "masak", "menu", "harian"]
+    },
+    {
+        "id": 222,
+        "title": "Endeus.tv",
+        "url": "https://endeus.tv",
+        "desc": "Video resep masakan kekinian yang mudah dan enak. Referensi kuliner visual.",
+        "content": "Endeus.tv fokus pada konten video memasak yang menarik dan menggugah selera.",
+        "tags": ["food", "resep", "video", "masak", "kekinian"]
+    },
+    {
+        "id": 223,
+        "title": "Tastemade Indonesia",
+        "url": "https://id.tastemade.com",
+        "desc": "Jaringan video makanan, perjalanan, dan gaya hidup. Resep unik dan petualangan rasa.",
+        "content": "Tastemade menghubungkan orang-orang melalui konten makanan dan perjalanan yang berkualitas tinggi.",
+        "tags": ["food", "travel", "video", "lifestyle", "resep"]
+    },
+    {
+        "id": 224,
+        "title": "Yummy App",
+        "url": "https://www.yummy.co.id",
+        "desc": "Aplikasi resep masakan dari IDN Media. Masak jadi mudah dengan fitur filter bahan.",
+        "content": "Yummy App menyediakan ribuan resep masakan yang bisa disesuaikan dengan bahan yang ada di kulkas.",
+        "tags": ["food", "resep", "masak", "app", "praktis"]
+    },
+    {
+        "id": 225,
+        "title": "KlikDokter",
+        "url": "https://www.klikdokter.com",
+        "desc": "Tanya dokter online 24 jam, info kesehatan, dan direktori penyakit.",
+        "content": "KlikDokter adalah situs kesehatan yang diasuh oleh tim dokter untuk memberikan edukasi medis.",
+        "tags": ["health", "kesehatan", "dokter", "konsultasi", "medis"]
+    },
+    {
+        "id": 226,
+        "title": "SehatQ",
+        "url": "https://www.sehatq.com",
+        "desc": "Asisten kesehatan keluarga. Chat dokter, booking layanan kesehatan, dan beli obat.",
+        "content": "SehatQ mengintegrasikan layanan kesehatan digital untuk memudahkan akses bagi masyarakat.",
+        "tags": ["health", "kesehatan", "dokter", "booking", "obat"]
+    },
+    {
+        "id": 227,
+        "title": "Hello Sehat",
+        "url": "https://hellosehat.com",
+        "desc": "Informasi kesehatan terpercaya, tips hidup sehat, dan panduan medis.",
+        "content": "Hello Sehat adalah bagian dari Hello Health Group, penyedia informasi kesehatan terkemuka di Asia.",
+        "tags": ["health", "kesehatan", "info", "tips", "medis"]
+    },
+    {
+        "id": 228,
+        "title": "Good Doctor",
+        "url": "https://www.gooddoctor.co.id",
+        "desc": "Layanan kesehatan telemedisin yang terintegrasi dengan Grab. Konsultasi dokter kapan saja.",
+        "content": "Good Doctor berkomitmen menyediakan layanan kesehatan berkualitas yang dapat diakses oleh semua orang.",
+        "tags": ["health", "kesehatan", "dokter", "telemedisin", "grab"]
+    },
+    {
+        "id": 229,
+        "title": "YesDok",
+        "url": "https://www.yesdok.com",
+        "desc": "Konsultasi video call dengan dokter 24 jam. Diagnosis awal yang cepat dan akurat.",
+        "content": "YesDok memungkinkan pasien berkonsultasi langsung dengan dokter melalui panggilan video.",
+        "tags": ["health", "kesehatan", "dokter", "video", "konsultasi"]
+    },
+    {
+        "id": 230,
+        "title": "WebMD",
+        "url": "https://www.webmd.com",
+        "desc": "Sumber informasi kesehatan terkemuka di dunia. Pemeriksa gejala, obat-obatan, dan berita kesehatan.",
+        "content": "WebMD menyediakan informasi kesehatan yang kredibel dan mendalam untuk konsumen.",
+        "tags": ["health", "medical", "info", "symptoms", "global"]
+    },
+    {
+        "id": 231,
+        "title": "Mayo Clinic",
+        "url": "https://www.mayoclinic.org",
+        "desc": "Pusat medis akademis nirlaba Amerika yang berfokus pada perawatan kesehatan, pendidikan, dan penelitian terpadu.",
+        "content": "Mayo Clinic adalah salah satu rumah sakit terbaik di dunia yang menyediakan perawatan ahli.",
+        "tags": ["health", "medical", "hospital", "research", "usa"]
+    },
+    {
+        "id": 232,
+        "title": "Healthline",
+        "url": "https://www.healthline.com",
+        "desc": "Informasi kesehatan fisik dan mental yang mudah dipahami dan ditinjau secara medis.",
+        "content": "Healthline berdedikasi untuk membuat informasi kesehatan menjadi lebih manusiawi dan mudah diakses.",
+        "tags": ["health", "wellness", "info", "tips", "mentalhealth"]
+    },
+    {
+        "id": 233,
+        "title": "Psychology Today",
+        "url": "https://www.psychologytoday.com",
+        "desc": "Sumber daya untuk kesehatan mental, psikologi, dan perilaku manusia. Temukan terapis.",
+        "content": "Psychology Today mengumpulkan para ahli untuk membahas topik psikologi dan kesehatan mental.",
+        "tags": ["health", "mentalhealth", "psychology", "terapis", "sains"]
+    },
+    {
+        "id": 234,
+        "title": "Verywell Mind",
+        "url": "https://www.verywellmind.com",
+        "desc": "Sumber daya tepercaya untuk kesehatan mental dan kesejahteraan emosional.",
+        "content": "Verywell Mind menawarkan saran yang penuh kasih dan terkini tentang topik kesehatan mental.",
+        "tags": ["health", "mentalhealth", "wellness", "psikologi", "info"]
+    },
+    {
+        "id": 235,
+        "title": "Investopedia",
+        "url": "https://www.investopedia.com",
+        "desc": "Ensiklopedia investasi dan keuangan terbesar. Pelajari istilah pasar, strategi trading, dan berita.",
+        "content": "Investopedia menyederhanakan informasi keuangan yang kompleks untuk membantu Anda mengelola uang.",
+        "tags": ["finance", "investasi", "edukasi", "uang", "bisnis"]
+    },
+    {
+        "id": 236,
+        "title": "The Motley Fool",
+        "url": "https://www.fool.com",
+        "desc": "Saran investasi saham dan keuangan pribadi. Membantu dunia berinvestasi lebih baik.",
+        "content": "The Motley Fool menyediakan analisis pasar saham dan rekomendasi investasi jangka panjang.",
+        "tags": ["finance", "investasi", "saham", "market", "advice"]
+    },
+    {
+        "id": 237,
+        "title": "MarketWatch",
+        "url": "https://www.marketwatch.com",
+        "desc": "Berita pasar saham, data keuangan, dan analisis bisnis real-time.",
+        "content": "MarketWatch adalah sumber utama untuk berita keuangan, data pasar, dan komentar pribadi.",
+        "tags": ["finance", "market", "news", "saham", "bisnis"]
+    },
+    {
+        "id": 238,
+        "title": "Financial Times",
+        "url": "https://www.ft.com",
+        "desc": "Berita bisnis internasional, analisis ekonomi, dan politik global.",
+        "content": "Financial Times adalah salah satu organisasi berita bisnis terkemuka di dunia, dikenal karena integritasnya.",
+        "tags": ["news", "business", "finance", "economy", "global"]
+    },
+    {
+        "id": 239,
+        "title": "The Economist",
+        "url": "https://www.economist.com",
+        "desc": "Wawasan dan opini tentang berita internasional, politik, bisnis, keuangan, sains, dan teknologi.",
+        "content": "The Economist menawarkan jurnalisme analitis yang mendalam tentang isu-isu global.",
+        "tags": ["news", "politics", "economy", "business", "analysis"]
+    },
+    {
+        "id": 240,
+        "title": "Forbes",
+        "url": "https://www.forbes.com",
+        "desc": "Berita bisnis global, daftar orang terkaya, teknologi, kepemimpinan, dan gaya hidup.",
+        "content": "Forbes dikenal dengan daftar peringkatnya, termasuk miliarder dunia dan perusahaan top.",
+        "tags": ["business", "news", "finance", "leadership", "richlist"]
+    },
+    {
+        "id": 241,
+        "title": "Business Insider",
+        "url": "https://www.businessinsider.com",
+        "desc": "Berita bisnis, teknologi, dan keuangan terkini. Cerita di balik layar perusahaan besar.",
+        "content": "Business Insider adalah situs berita bisnis yang berkembang pesat dengan gaya pelaporan yang modern.",
+        "tags": ["business", "news", "tech", "finance", "insider"]
+    },
+    {
+        "id": 242,
+        "title": "Harvard Business Review",
+        "url": "https://hbr.org",
+        "desc": "Ide-ide manajemen terbaru dan praktik terbaik untuk memimpin organisasi.",
+        "content": "HBR menyediakan artikel tentang strategi, inovasi, dan kepemimpinan dari para pemikir bisnis top.",
+        "tags": ["business", "management", "leadership", "edukasi", "strategi"]
+    },
+    {
+        "id": 243,
+        "title": "McKinsey & Company",
+        "url": "https://www.mckinsey.com",
+        "desc": "Wawasan tentang manajemen, strategi, dan tren ekonomi global dari firma konsultan terkemuka.",
+        "content": "McKinsey menerbitkan laporan dan artikel mendalam tentang tantangan bisnis kritis.",
+        "tags": ["business", "consulting", "strategy", "report", "global"]
+    },
+    {
+        "id": 244,
+        "title": "Boston Consulting Group (BCG)",
+        "url": "https://www.bcg.com",
+        "desc": "Solusi konsultasi manajemen untuk strategi bisnis, digital, dan transformasi.",
+        "content": "BCG bermitra dengan pemimpin bisnis untuk mengatasi tantangan terpenting mereka.",
+        "tags": ["business", "consulting", "strategy", "digital", "global"]
+    },
+    {
+        "id": 245,
+        "title": "Bain & Company",
+        "url": "https://www.bain.com",
+        "desc": "Konsultan manajemen global yang membantu para pembuat perubahan mendefinisikan masa depan.",
+        "content": "Bain bekerja bersama klien sebagai satu tim dengan ambisi bersama untuk mencapai hasil luar biasa.",
+        "tags": ["business", "consulting", "strategy", "management", "global"]
+    },
+    {
+        "id": 246,
+        "title": "NASA",
+        "url": "https://www.nasa.gov",
+        "desc": "Badan Penerbangan dan Antariksa Nasional Amerika Serikat. Eksplorasi luar angkasa dan sains bumi.",
+        "content": "NASA memimpin eksplorasi ruang angkasa dan penelitian aeronautika untuk kepentingan umat manusia.",
+        "tags": ["science", "space", "tech", "usa", "research"]
+    },
+    {
+        "id": 247,
+        "title": "SpaceX",
+        "url": "https://www.spacex.com",
+        "desc": "Merancang, memproduksi, dan meluncurkan roket canggih dan pesawat ruang angkasa.",
+        "content": "SpaceX merevolusi teknologi ruang angkasa dengan tujuan akhir memungkinkan manusia hidup di planet lain.",
+        "tags": ["tech", "space", "science", "rocket", "future"]
+    },
+    {
+        "id": 248,
+        "title": "ESA (European Space Agency)",
+        "url": "https://www.esa.int",
+        "desc": "Gerbang Eropa ke luar angkasa. Misi untuk membentuk pengembangan kemampuan luar angkasa Eropa.",
+        "content": "ESA adalah organisasi antarpemerintah yang didedikasikan untuk eksplorasi ruang angkasa.",
+        "tags": ["science", "space", "europe", "research", "tech"]
+    },
+    {
+        "id": 249,
+        "title": "CERN",
+        "url": "https://home.cern",
+        "desc": "Organisasi Eropa untuk Riset Nuklir. Rumah bagi Large Hadron Collider (LHC).",
+        "content": "CERN menyelidiki struktur dasar alam semesta menggunakan akselerator partikel terbesar di dunia.",
+        "tags": ["science", "fisika", "research", "europe", "nuklir"]
+    },
+    {
+        "id": 250,
+        "title": "National Institutes of Health (NIH)",
+        "url": "https://www.nih.gov",
+        "desc": "Pusat penelitian medis terkemuka di dunia. Penemuan yang meningkatkan kesehatan dan menyelamatkan nyawa.",
+        "content": "NIH adalah badan utama pemerintah AS yang bertanggung jawab atas penelitian biomedis dan kesehatan masyarakat.",
+        "tags": ["health", "science", "research", "government", "usa"]
+    },
+    {
+        "id": 251,
+        "title": "World Health Organization (WHO)",
+        "url": "https://www.who.int",
+        "desc": "Membangun masa depan yang lebih baik dan lebih sehat bagi orang-orang di seluruh dunia.",
+        "content": "WHO adalah badan khusus PBB yang bertanggung jawab atas kesehatan masyarakat internasional.",
+        "tags": ["health", "world", "pbb", "organisasi", "medis"]
+    },
+    {
+        "id": 252,
+        "title": "Anthropic (Claude)",
+        "url": "https://www.anthropic.com",
+        "desc": "Perusahaan keamanan dan penelitian AI. Pembuat Claude, asisten AI yang membantu dan tidak berbahaya.",
+        "content": "Anthropic membangun sistem AI yang dapat diandalkan, dapat ditafsirkan, dan dapat dikendalikan.",
+        "tags": ["ai", "tech", "chatbot", "research", "claude"]
+    },
+    {
+        "id": 253,
+        "title": "Jasper",
+        "url": "https://www.jasper.ai",
+        "desc": "Platform AI untuk bisnis. Buat konten pemasaran, blog, dan media sosial dengan cepat.",
+        "content": "Jasper adalah kopilot AI untuk tim pemasaran perusahaan yang ingin membuat konten berkualitas tinggi dengan kecepatan tinggi.",
+        "tags": ["ai", "business", "marketing", "content", "writing"]
+    },
+    {
+        "id": 254,
+        "title": "Copy.ai",
+        "url": "https://www.copy.ai",
+        "desc": "Generator konten bertenaga AI untuk pemasar dan penulis. Buat copy iklan dan postingan sosial.",
+        "content": "Copy.ai membantu profesional menghemat waktu dengan menghasilkan draf konten pemasaran dalam hitungan detik.",
+        "tags": ["ai", "marketing", "writing", "tools", "copywriting"]
+    },
+    {
+        "id": 255,
+        "title": "Stability AI",
+        "url": "https://stability.ai",
+        "desc": "Pembuat Stable Diffusion. Mengaktifkan kreativitas dengan model AI open-source.",
+        "content": "Stability AI mengembangkan model terbuka untuk gambar, bahasa, audio, video, dan 3D.",
+        "tags": ["ai", "art", "opensource", "image", "tech"]
+    },
+    {
+        "id": 256,
+        "title": "Hugging Face",
+        "url": "https://huggingface.co",
+        "desc": "Komunitas AI dan platform data science. Hub untuk model machine learning dan dataset.",
+        "content": "Hugging Face adalah platform kolaborasi untuk komunitas machine learning, sering disebut sebagai GitHub-nya AI.",
+        "tags": ["ai", "tech", "developer", "opensource", "data"]
+    },
+    {
+        "id": 257,
+        "title": "Runway",
+        "url": "https://runwayml.com",
+        "desc": "Riset sistem AI terapan untuk kreativitas. Edit dan buat video dengan kekuatan AI.",
+        "content": "Runway membangun alat kreatif bertenaga AI untuk pembuat film dan editor video, termasuk fitur Gen-2.",
+        "tags": ["ai", "video", "creative", "tools", "art"]
+    },
+    {
+        "id": 258,
+        "title": "Perplexity AI",
+        "url": "https://www.perplexity.ai",
+        "desc": "Mesin pencari percakapan bertenaga AI yang memberikan jawaban akurat dengan kutipan sumber.",
+        "content": "Perplexity menggabungkan pencarian web dengan model bahasa besar untuk memberikan jawaban langsung atas pertanyaan pengguna.",
+        "tags": ["ai", "search", "tech", "info", "tools"]
+    },
+    {
+        "id": 259,
+        "title": "Character.ai",
+        "url": "https://beta.character.ai",
+        "desc": "Mengobrol dengan karakter AI yang memiliki kepribadian unik. Buat karaktermu sendiri.",
+        "content": "Platform chatbot model bahasa saraf yang dapat menghasilkan respons teks mirip manusia dan berpartisipasi dalam percakapan kontekstual.",
+        "tags": ["ai", "chat", "entertainment", "social", "bot"]
+    },
+    {
+        "id": 260,
+        "title": "Leonardo.ai",
+        "url": "https://leonardo.ai",
+        "desc": "Buat aset game berkualitas produksi dengan AI. Generator seni AI untuk industri kreatif.",
+        "content": "Leonardo.ai memungkinkan pengguna membuat aset visual yang menakjubkan dengan cepat menggunakan model AI canggih.",
+        "tags": ["ai", "art", "game", "design", "image"]
+    },
+    {
+        "id": 261,
+        "title": "Synthesia",
+        "url": "https://www.synthesia.io",
+        "desc": "Platform pembuatan video AI #1. Buat video dengan avatar AI dalam berbagai bahasa.",
+        "content": "Synthesia memungkinkan pembuatan video profesional dari teks tanpa perlu kamera, mikrofon, atau studio.",
+        "tags": ["ai", "video", "business", "marketing", "tools"]
+    },
+    {
+        "id": 262,
+        "title": "Descript",
+        "url": "https://www.descript.com",
+        "desc": "Satu alat untuk menulis, merekam, menyalin, mengedit, berkolaborasi, dan berbagi video dan podcast.",
+        "content": "Descript adalah editor audio dan video all-in-one yang membuat pengeditan semudah mengedit dokumen teks, didukung oleh AI.",
+        "tags": ["ai", "video", "audio", "tools", "editing"]
+    },
+    {
+        "id": 263,
+        "title": "Otter.ai",
+        "url": "https://otter.ai",
+        "desc": "Asisten rapat AI yang merekam audio, menulis catatan, menangkap slide secara otomatis, dan menghasilkan ringkasan.",
+        "content": "Otter.ai menggunakan kecerdasan buatan untuk menyediakan transkripsi suara-ke-teks secara real-time untuk rapat dan percakapan.",
+        "tags": ["ai", "productivity", "meeting", "transcription", "tools"]
+    },
+    {
+        "id": 264,
+        "title": "Murf AI",
+        "url": "https://murf.ai",
+        "desc": "Ubah teks menjadi ucapan dengan generator suara AI serbaguna. Buat sulih suara berkualitas studio dalam hitungan menit.",
+        "content": "Murf memungkinkan pengguna membuat sulih suara yang realistis untuk video, presentasi, dan podcast menggunakan berbagai suara AI.",
+        "tags": ["ai", "audio", "voice", "text-to-speech", "tools"]
+    },
+    {
+        "id": 265,
+        "title": "Lumen5",
+        "url": "https://lumen5.com",
+        "desc": "Pembuat video online yang dibuat untuk mempermudah tim pemasaran membuat konten video yang menarik dari postingan blog.",
+        "content": "Lumen5 menggunakan AI untuk mengubah konten teks menjadi video pemasaran yang menarik secara visual secara otomatis.",
+        "tags": ["ai", "video", "marketing", "content", "tools"]
+    },
+    {
+        "id": 266,
+        "title": "Beautiful.ai",
+        "url": "https://www.beautiful.ai",
+        "desc": "Perangkat lunak presentasi yang merancang slide untuk Anda. Buat presentasi yang menakjubkan dengan cepat.",
+        "content": "Beautiful.ai menggunakan aturan desain cerdas untuk menyesuaikan slide secara otomatis saat Anda menambahkan konten, memastikan presentasi selalu terlihat profesional.",
+        "tags": ["ai", "design", "presentation", "productivity", "tools"]
+    },
+    {
+        "id": 267,
+        "title": "Fireflies.ai",
+        "url": "https://fireflies.ai",
+        "desc": "Otomatiskan catatan rapat Anda. Rekam, transkripsikan, dan cari di seluruh percakapan suara Anda.",
+        "content": "Fireflies adalah asisten suara AI yang bergabung dengan rapat di platform konferensi web untuk mencatat dan mengatur diskusi.",
+        "tags": ["ai", "meeting", "productivity", "transcription", "business"]
+    },
+    {
+        "id": 268,
+        "title": "Soundraw",
+        "url": "https://soundraw.io",
+        "desc": "Generator musik AI untuk pembuat konten. Buat musik bebas royalti yang sesuai dengan suasana hati video Anda.",
+        "content": "Soundraw memungkinkan pengguna menyesuaikan panjang, tempo, dan suasana musik yang dihasilkan AI untuk kebutuhan konten mereka.",
+        "tags": ["ai", "music", "audio", "creative", "tools"]
+    },
+    {
+        "id": 269,
+        "title": "Rytr",
+        "url": "https://rytr.me",
+        "desc": "Asisten penulisan AI yang membantu Anda membuat konten berkualitas tinggi, dalam hitungan detik, dengan biaya yang lebih murah.",
+        "content": "Rytr adalah alat penulisan bertenaga AI yang dapat menghasilkan berbagai jenis konten, mulai dari email hingga posting blog.",
+        "tags": ["ai", "writing", "content", "marketing", "tools"]
+    },
+    {
+        "id": 270,
+        "title": "Microsoft Copilot",
+        "url": "https://copilot.microsoft.com",
+        "desc": "Asisten AI sehari-hari Anda. Ditenagai oleh GPT-4 dan DALL-E 3 untuk pencarian, kreativitas, dan produktivitas.",
+        "content": "Microsoft Copilot mengintegrasikan kemampuan model bahasa besar dengan data Anda di Microsoft 365 dan web untuk meningkatkan produktivitas.",
+        "tags": ["ai", "microsoft", "chatbot", "productivity", "search"]
+    },
+    {
+        "id": 271,
+        "title": "DeepL Translator",
+        "url": "https://www.deepl.com",
+        "desc": "Penerjemah AI paling akurat di dunia. Menerjemahkan teks dan dokumen dengan nuansa bahasa yang alami.",
+        "content": "DeepL menggunakan jaringan saraf tiruan canggih untuk menghasilkan terjemahan yang seringkali lebih akurat dan terdengar lebih alami daripada pesaingnya.",
+        "tags": ["ai", "tools", "translation", "language", "productivity"]
+    },
+    {
+        "id": 272,
+        "title": "Grammarly",
+        "url": "https://www.grammarly.com",
+        "desc": "Asisten penulisan AI yang membantu Anda menulis dengan jelas, bebas kesalahan, dan berdampak.",
+        "content": "Grammarly memeriksa ejaan, tata bahasa, tanda baca, kejelasan, keterlibatan, dan penyampaian dalam tulisan bahasa Inggris Anda secara real-time.",
+        "tags": ["ai", "writing", "productivity", "education", "tools"]
+    },
+    {
+        "id": 273,
+        "title": "QuillBot",
+        "url": "https://quillbot.com",
+        "desc": "Alat parafrase dan ringkasan berbasis AI. Tulis ulang kalimat, periksa tata bahasa, dan buat kutipan.",
+        "content": "QuillBot membantu pengguna menulis ulang dan menyempurnakan kalimat, paragraf, atau artikel lengkap menggunakan AI canggih.",
+        "tags": ["ai", "writing", "education", "tools", "paraphrasing"]
+    },
+    {
+        "id": 274,
+        "title": "ElevenLabs",
+        "url": "https://elevenlabs.io",
+        "desc": "Generator suara AI paling realistis dan serbaguna. Text-to-speech dan kloning suara berkualitas tinggi.",
+        "content": "ElevenLabs berspesialisasi dalam pengembangan perangkat lunak sintesis suara dan text-to-speech yang terdengar sangat alami dan emosional.",
+        "tags": ["ai", "audio", "voice", "text-to-speech", "creative"]
+    },
+    {
+        "id": 275,
+        "title": "Poe",
+        "url": "https://poe.com",
+        "desc": "Platform AI cepat dan bermanfaat. Akses GPT-4, Claude, dan jutaan bot buatan pengguna lainnya.",
+        "content": "Poe (Platform for Open Exploration) dari Quora memungkinkan pengguna untuk bertanya, mendapatkan jawaban instan, dan melakukan percakapan bolak-balik dengan berbagai bot AI.",
+        "tags": ["ai", "chatbot", "aggregator", "tools", "quora"]
+    },
+    {
+        "id": 276,
+        "title": "Meta AI",
+        "url": "https://www.meta.ai",
+        "desc": "Asisten cerdas dari Meta yang dapat membantu Anda belajar, membuat, dan terhubung. Ditenagai oleh Llama 3.",
+        "content": "Meta AI adalah asisten kecerdasan buatan yang dapat menghasilkan teks dan gambar, tersedia di berbagai platform Meta seperti WhatsApp, Instagram, dan Messenger.",
+        "tags": ["ai", "meta", "chatbot", "image generator", "llama"]
+    },
+    {
+        "id": 277,
+        "title": "Mistral AI",
+        "url": "https://mistral.ai",
+        "desc": "Perusahaan AI Prancis yang menyediakan model bahasa terbuka dan efisien. Coba Le Chat.",
+        "content": "Mistral AI mengembangkan model bahasa besar (LLM) yang kuat dan efisien, seringkali dengan bobot terbuka, menantang dominasi perusahaan besar AS.",
+        "tags": ["ai", "tech", "opensource", "llm", "europe"]
+    },
+    {
+        "id": 278,
+        "title": "Suno",
+        "url": "https://suno.com",
+        "desc": "Buat lagu lengkap dengan lirik dan vokal hanya dari teks. AI musik yang mengubah siapa saja menjadi musisi.",
+        "content": "Suno adalah model AI generatif yang dapat menghasilkan lagu-lagu berkualitas tinggi yang realistis, termasuk vokal dan instrumentasi, dari prompt teks sederhana.",
+        "tags": ["ai", "music", "audio", "creative", "generator"]
+    },
+    {
+        "id": 279,
+        "title": "Gamma",
+        "url": "https://gamma.app",
+        "desc": "Medium baru untuk menyajikan ide. Buat presentasi, dokumen, dan halaman web yang indah dengan AI.",
+        "content": "Gamma menggunakan AI untuk menghasilkan dek presentasi, dokumen, dan halaman web yang dipoles dalam hitungan detik, membebaskan pengguna dari pekerjaan pemformatan.",
+        "tags": ["ai", "presentation", "design", "productivity", "tools"]
+    },
+    {
+        "id": 280,
+        "title": "Civitai",
+        "url": "https://civitai.com",
+        "desc": "Hub untuk komunitas seni AI Generatif. Bagikan dan temukan model, LoRA, dan embedding Stable Diffusion.",
+        "content": "Civitai adalah platform berbagi model untuk komunitas seni AI, khususnya yang berfokus pada Stable Diffusion, memungkinkan pengguna mengunduh model kustom.",
+        "tags": ["ai", "art", "community", "models", "stablediffusion"]
+    },
+    {
+        "id": 281,
+        "title": "Replicate",
+        "url": "https://replicate.com",
+        "desc": "Jalankan model AI dengan API cloud. Ribuan model open-source siap digunakan untuk gambar, teks, dan video.",
+        "content": "Replicate memudahkan pengembang untuk menjalankan model pembelajaran mesin di cloud tanpa harus mengelola infrastruktur sendiri.",
+        "tags": ["ai", "developer", "cloud", "api", "opensource"]
+    },
+    {
+        "id": 282,
+        "title": "Tabnine",
+        "url": "https://www.tabnine.com",
+        "desc": "Asisten pengkodean AI yang mempercepat pengiriman kode dan menjaga keamanan kode Anda.",
+        "content": "Tabnine adalah asisten penyelesaian kode AI yang bekerja di IDE favorit Anda, memprediksi dan menyarankan baris kode berikutnya berdasarkan konteks.",
+        "tags": ["ai", "coding", "developer", "tools", "productivity"]
+    },
+    {
+        "id": 283,
+        "title": "Writesonic",
+        "url": "https://writesonic.com",
+        "desc": "Platform penulisan AI terbaik untuk membuat konten SEO-friendly, blog, iklan, dan halaman arahan.",
+        "content": "Writesonic adalah alat penulisan konten bertenaga AI yang membantu pemasar dan penulis menghasilkan konten berkualitas tinggi dan orisinal dengan cepat.",
+        "tags": ["ai", "writing", "marketing", "seo", "content"]
+    },
+    {
+        "id": 284,
+        "title": "InVideo",
+        "url": "https://invideo.io",
+        "desc": "Ubah ide menjadi video secara instan dengan AI. Editor video online yang kuat untuk semua orang.",
+        "content": "InVideo menawarkan fitur teks-ke-video bertenaga AI yang menyederhanakan pembuatan video, lengkap dengan stok media, sulih suara, dan musik.",
+        "tags": ["ai", "video", "marketing", "creative", "tools"]
+    },
+    {
+        "id": 285,
+        "title": "Speechify",
+        "url": "https://speechify.com",
+        "desc": "Aplikasi text-to-speech #1. Dengarkan dokumen, artikel, PDF, dan email apa pun dengan suara alami.",
+        "content": "Speechify menggunakan AI untuk mengubah teks tertulis menjadi audio, membantu orang dengan disleksia atau mereka yang lebih suka mendengarkan daripada membaca.",
+        "tags": ["ai", "audio", "accessibility", "productivity", "text-to-speech"]
+    },
+    {
+        "id": 286,
+        "title": "Replika",
+        "url": "https://replika.com",
+        "desc": "Teman AI yang selalu ada untuk mendengarkan dan berbicara. Selalu di sisi Anda.",
+        "content": "Replika adalah chatbot AI yang dirancang untuk menjadi pendamping emosional, belajar dari interaksi pengguna untuk mensimulasikan percakapan manusia yang bermakna.",
+        "tags": ["ai", "chatbot", "companion", "social", "entertainment"]
+    }
+]
