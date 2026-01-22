@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Search - Pure JS Engine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            color: #202124;
+        }
+        .search-shadow {
+            box-shadow: 0 1px 6px rgba(32,33,36,.28);
+        }
+        .search-shadow:hover {
+            box-shadow: 0 1px 6px rgba(32,33,36,.28), 0 1px 6px rgba(32,33,36,.28);
+        }
+        .result-url {
+            color: #202124;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+        .result-title {
+            color: #1a0dab;
+            font-size: 20px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .result-title:hover {
+            text-decoration: underline;
+        }
+        .result-desc {
+            color: #4d5156;
+            font-size: 14px;
+            line-height: 1.58;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #4d5156;
+        }
+        /* Loader Animation */
+        .loader-bar {
+            height: 4px;
+            width: 100%;
+            background: #f0f0f0;
+            overflow: hidden;
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 50;
+        }
+        .loader-bar span {
+            display: block;
+            height: 100%;
+            background: #4285f4;
+            animation: loading 1.5s infinite ease-in-out;
+        }
+        @keyframes loading {
+            0% { width: 0; margin-left: 0; }
+            50% { width: 60%; margin-left: 30%; }
+            100% { width: 100%; margin-left: 100%; }
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <!-- Back Button to Main Web -->
+    <a href="easy-search.html.html" class="fixed top-4 left-4 z-50 bg-white p-3 rounded-full shadow-lg hover:bg-gray-100 transition text-gray-600 flex items-center justify-center group" title="Kembali ke EasySearch">
+        <i class="fas fa-arrow-left group-hover:-translate-x-1 transition-transform"></i>
+    </a>
+
+    <!-- Loading Bar -->
+    <div id="loader" class="loader-bar"><span></span></div>
+
+    <!-- MAIN PAGE (HOME) -->
+    <div id="home-view" class="flex flex-col items-center justify-center flex-grow transition-all duration-300">
+        <div class="text-center mb-8">
+            <h1 class="text-6xl font-bold mb-2 text-gray-800 tracking-tighter">
+                <span class="text-blue-600">S</span><span class="text-red-500">e</span><span class="text-yellow-500">a</span><span class="text-blue-600">r</span><span class="text-green-600">c</span><span class="text-red-500">h</span>
+            </h1>
+            <p class="text-gray-500 text-sm">Pure JS • No API • Mock Database</p>
+        </div>
+
+        <div class="w-full max-w-[584px] px-4">
+            <div class="relative group">
+                <div class="flex items-center w-full border border-gray-200 rounded-full hover:shadow-md transition-shadow p-3 pl-5 search-shadow">
+                    <i class="fas fa-search text-gray-400 mr-3"></i>
+                    <input type="text" id="main-search-input" class="flex-grow outline-none text-gray-700" placeholder="Coba cari 'koding', 'resep', atau 'teknologi'..." autocomplete="off">
+                    <i class="fas fa-times text-gray-400 cursor-pointer ml-3 hover:text-gray-600 hidden" id="clear-home" onclick="clearInput('main-search-input')"></i>
+                </div>
+            </div>
+            
+            <div class="flex justify-center mt-8 space-x-4">
+                <button onclick="performSearch('main-search-input')" class="bg-gray-50 text-sm text-gray-800 px-4 py-2 rounded border border-transparent hover:border-gray-300 hover:shadow-sm">Penelusuran Mock</button>
+                <button onclick="feelingLucky()" class="bg-gray-50 text-sm text-gray-800 px-4 py-2 rounded border border-transparent hover:border-gray-300 hover:shadow-sm">Saya Lagi Beruntung</button>
+            </div>
+            
+            <div class="mt-8 text-center text-xs text-gray-500">
+                <p>Database simulasi memuat <span id="db-count" class="font-bold">0</span> situs.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- RESULTS PAGE (HIDDEN BY DEFAULT) -->
+    <div id="results-view" class="hidden flex-col w-full">
+        <!-- Header -->
+        <header class="border-b border-gray-200 p-4 sticky top-0 bg-white z-10">
+            <div class="flex flex-col sm:flex-row items-center sm:items-start w-full max-w-6xl mx-auto">
+                <div class="cursor-pointer mb-4 sm:mb-0 sm:mr-8" onclick="showHome()">
+                    <span class="text-2xl font-bold tracking-tighter">
+                        <span class="text-blue-600">S</span><span class="text-red-500">e</span><span class="text-yellow-500">a</span><span class="text-blue-600">r</span><span class="text-green-600">c</span><span class="text-red-500">h</span>
+                    </span>
+                </div>
+                <div class="flex-grow w-full sm:max-w-2xl relative">
+                    <div class="flex items-center w-full border border-gray-200 rounded-full shadow-sm hover:shadow-md px-4 py-2 bg-white">
+                        <input type="text" id="result-search-input" class="flex-grow outline-none text-gray-700" autocomplete="off">
+                        <i class="fas fa-times text-gray-500 cursor-pointer border-r border-gray-300 pr-3 mr-3 hover:text-gray-700" onclick="clearInput('result-search-input')"></i>
+                        <i class="fas fa-search text-blue-500 cursor-pointer" onclick="performSearch('result-search-input')"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Tabs -->
+            <div class="w-full max-w-6xl mx-auto mt-4 pl-0 sm:pl-32 flex space-x-6 text-sm text-gray-500">
+                <span class="text-blue-600 border-b-2 border-blue-600 pb-1 cursor-pointer font-medium"><i class="fas fa-search mr-1"></i> Semua</span>
+                <span class="hover:text-blue-600 cursor-pointer transition"><i class="far fa-image mr-1"></i> Gambar</span>
+                <span class="hover:text-blue-600 cursor-pointer transition"><i class="far fa-newspaper mr-1"></i> Berita</span>
+                <span class="hover:text-blue-600 cursor-pointer transition"><i class="fas fa-video mr-1"></i> Video</span>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <main class="w-full max-w-6xl mx-auto p-4 pl-0 sm:pl-32">
+            <div id="stats-bar" class="text-sm text-gray-500 mb-4"></div>
+            
+            <div id="results-container" class="max-w-2xl space-y-8">
+                <!-- Results injected here -->
+            </div>
+
+            <div id="pagination" class="flex items-center space-x-2 mt-10 mb-10 hidden">
+                <!-- Pagination injected here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for "Viewing" a site -->
+    <div id="site-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-4xl h-[80vh] rounded-lg shadow-2xl flex flex-col overflow-hidden">
+            <div class="bg-gray-100 p-3 border-b border-gray-200 flex justify-between items-center">
+                <div class="flex items-center space-x-2 w-full mr-4">
+                    <div class="flex space-x-1">
+                        <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                    </div>
+                    <input id="modal-url-bar" readonly class="bg-white border border-gray-300 text-xs rounded px-2 py-1 w-full text-gray-600" value="">
+                </div>
+                <button onclick="closeModal()" class="text-gray-500 hover:text-gray-800"><i class="fas fa-times text-xl"></i></button>
+            </div>
+            <div class="p-8 overflow-y-auto flex-grow bg-white">
+                <div id="modal-content" class="prose max-w-none">
+                    <!-- Content injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 border-t border-gray-200 mt-auto">
+        <div class="max-w-6xl mx-auto px-4 py-3 text-sm text-gray-500 text-center">
+            <p>Mock Search Engine Demo • Pure JavaScript & HTML • No APIs Used</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- 1. THE MOCK DATABASE (The "Internet") ---
+        // Karena tidak pakai API, kita buat data dummy di sini.
+        let mockDatabase = [];
+
+        // Fungsi untuk memuat data dari file JSON
+        async function loadDatabase() {
+            try {
+                const response = await fetch('database.json');
+                if (!response.ok) throw new Error('Gagal memuat database');
+                mockDatabase = await response.json();
+                
+                // Tampilkan jumlah database di home
+                document.getElementById('db-count').innerText = mockDatabase.length;
+            } catch (error) {
+                console.error('Error loading database:', error);
+                document.getElementById('db-count').innerText = '0';
+            }
+        }
+
+        // Panggil fungsi load
+        loadDatabase();
+
+        // --- 2. SEARCH ENGINE LOGIC ---
+
+        function normalize(str) {
+            return str.toLowerCase().replace(/[^\w\s]/gi, '');
+        }
+
+        function calculateScore(item, queryWords) {
+            let score = 0;
+            const titleNorm = normalize(item.title);
+            const descNorm = normalize(item.desc);
+            const contentNorm = normalize(item.content);
+            const tagsNorm = item.tags.join(" ");
+
+            queryWords.forEach(word => {
+                if (!word) return;
+                
+                // Bobot Penilaian (Ranking Algorithm Sederhana)
+                if (titleNorm.includes(word)) score += 10;      // Judul paling penting
+                if (tagsNorm.includes(word)) score += 8;        // Tags sangat penting
+                if (descNorm.includes(word)) score += 5;        // Deskripsi penting
+                if (contentNorm.includes(word)) score += 2;     // Konten kurang penting
+                
+                // Exact match bonus
+                if (titleNorm === word) score += 5;
+            });
+
+            return score;
+        }
+
+        function searchEngine(query) {
+            if (!query) return [];
+            
+            const normalizedQuery = normalize(query);
+            const queryWords = normalizedQuery.split(" ");
+            
+            // Hitung skor untuk setiap item
+            const results = mockDatabase.map(item => {
+                return {
+                    ...item,
+                    score: calculateScore(item, queryWords)
+                };
+            });
+
+            // Filter yang skornya > 0 dan Urutkan dari skor tertinggi
+            return results
+                .filter(item => item.score > 0)
+                .sort((a, b) => b.score - a.score);
+        }
+
+        // --- 3. UI RENDERING LOGIC ---
+
+        function highlightText(text, query) {
+            if (!query) return text;
+            const words = query.split(" ").filter(w => w.length > 0);
+            let highlighted = text;
+            
+            words.forEach(word => {
+                const regex = new RegExp(`(${word})`, 'gi');
+                highlighted = highlighted.replace(regex, '<span class="highlight">$1</span>');
+            });
+            return highlighted;
+        }
+
+        function renderResults(results, query, startTime) {
+            const container = document.getElementById('results-container');
+            const statsBar = document.getElementById('stats-bar');
+            container.innerHTML = '';
+            
+            const timeTaken = ((Date.now() - startTime) / 1000).toFixed(2);
+            statsBar.innerHTML = `Sekitar ${results.length} hasil (${timeTaken} detik)`;
+
+            if (results.length === 0) {
+                container.innerHTML = `
+                    <div class="mt-8">
+                        <p class="text-gray-800 text-lg">Penelusuran Anda - <span class="font-bold">${query}</span> - tidak cocok dengan dokumen apa pun di database mock kami.</p>
+                        <p class="mt-4 text-gray-600">Saran:</p>
+                        <ul class="list-disc ml-8 text-gray-600 mt-2">
+                            <li>Pastikan semua kata dieja dengan benar.</li>
+                            <li>Coba kata kunci yang berbeda (misal: "koding", "bali", "resep").</li>
+                            <li>Coba kata kunci yang lebih umum.</li>
+                        </ul>
+                    </div>
+                `;
+                return;
+            }
+
+            results.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'flex flex-col mb-8 font-sans';
+                
+                // Construct URL visual
+                const urlObj = new URL(item.url);
+                const host = urlObj.hostname;
+                const path = urlObj.pathname.replace(/\//g, ' › ');
+                
+                // Icon Generator based on ID (random visual)
+                const colors = ['bg-red-500', 'bg-blue-500', 'bg-green-500', 'bg-purple-500'];
+                const color = colors[item.id % colors.length];
+                const firstChar = host.charAt(0).toUpperCase();
+
+                div.innerHTML = `
+                    <div class="group">
+                        <a href="#" onclick="openSite(${item.id}); return false;" class="result-url">
+                            <div class="w-7 h-7 rounded-full ${color} text-white flex items-center justify-center text-xs mr-3 font-bold">${firstChar}</div>
+                            <div class="flex flex-col">
+                                <span class="text-sm text-gray-800">${host}</span>
+                                <span class="text-xs text-gray-500">${item.url}</span>
+                            </div>
+                        </a>
+                        <div class="mt-1">
+                            <a href="#" onclick="openSite(${item.id}); return false;" class="result-title text-xl text-blue-800 visited:text-purple-900 group-hover:underline block mb-1">
+                                ${highlightText(item.title, query)}
+                            </a>
+                        </div>
+                        <div class="result-desc">
+                            <span class="text-gray-500 text-xs">${new Date().toLocaleDateString()} — </span>
+                            ${highlightText(item.desc, query)}
+                        </div>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        // --- 4. INTERACTION LOGIC ---
+
+        function showLoading() {
+            document.getElementById('loader').style.display = 'block';
+        }
+
+        function hideLoading() {
+            setTimeout(() => {
+                document.getElementById('loader').style.display = 'none';
+            }, 500); // Fake delay
+        }
+
+        function performSearch(inputId) {
+            const input = document.getElementById(inputId);
+            const query = input.value.trim();
+            
+            if (!query) return;
+
+            // Sync inputs
+            document.getElementById('main-search-input').value = query;
+            document.getElementById('result-search-input').value = query;
+
+            showLoading();
+            
+            // Simulasi Network Latency
+            setTimeout(() => {
+                const startTime = Date.now();
+                const results = searchEngine(query);
+                
+                document.getElementById('home-view').classList.add('hidden');
+                document.getElementById('results-view').classList.remove('hidden');
+                document.getElementById('results-view').classList.add('flex');
+                
+                renderResults(results, query, startTime);
+                hideLoading();
+                window.scrollTo(0, 0);
+            }, 600); 
+        }
+
+        function showHome() {
+            document.getElementById('results-view').classList.add('hidden');
+            document.getElementById('results-view').classList.remove('flex');
+            document.getElementById('home-view').classList.remove('hidden');
+            document.getElementById('main-search-input').value = '';
+            document.getElementById('main-search-input').focus();
+        }
+
+        function clearInput(id) {
+            document.getElementById(id).value = '';
+            document.getElementById(id).focus();
+        }
+
+        function feelingLucky() {
+            const randomId = Math.floor(Math.random() * mockDatabase.length);
+            openSite(mockDatabase[randomId].id);
+        }
+
+        function openSite(id) {
+            const site = mockDatabase.find(item => item.id === id);
+            if (!site) return;
+
+            const modal = document.getElementById('site-modal');
+            const content = document.getElementById('modal-content');
+            const urlBar = document.getElementById('modal-url-bar');
+
+            urlBar.value = site.url;
+            content.innerHTML = `
+                <h1 class="text-3xl font-bold mb-4 text-gray-800">${site.title}</h1>
+                <div class="w-full h-48 bg-gray-200 rounded-lg mb-6 flex items-center justify-center text-gray-400">
+                    <i class="fas fa-image text-4xl"></i>
+                    <span class="ml-2">Header Image Placeholder</span>
+                </div>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4 font-bold">${site.desc}</p>
+                <hr class="my-6 border-gray-300"/>
+                <p class="text-gray-800 leading-relaxed mb-4">${site.content}</p>
+                <p class="text-gray-800 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="text-gray-800 leading-relaxed mt-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <div class="mt-8">
+                    <span class="font-bold text-gray-600">Tags:</span> 
+                    ${site.tags.map(t => `<span class="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs mr-2">#${t}</span>`).join('')}
+                </div>
+            `;
+
+            modal.classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('site-modal').classList.add('hidden');
+        }
+
+        // Event Listeners for Enter Key
+        document.getElementById('main-search-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') performSearch('main-search-input');
+        });
+        document.getElementById('result-search-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') performSearch('result-search-input');
+        });
+
+        // Input listener to toggle X button
+        document.getElementById('main-search-input').addEventListener('input', function(e) {
+            const clearBtn = document.getElementById('clear-home');
+            if(this.value.length > 0) clearBtn.classList.remove('hidden');
+            else clearBtn.classList.add('hidden');
+        });
+
+    </script>
+</body>
+</html>
+        });
+
+    </script>
+</body>
+</html>
